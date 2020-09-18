@@ -27,4 +27,4 @@ let day = weekdays[d.getDate];
 let monthName = month[d.getMonth];
 let year = d.getFullYear
 let date = day + "," + monthName + " " + d.getDate() + "," + year;
-document.getElementById("currentdate").textContent = date;
+document.getElementById("currentDate").textContent = date;
