@@ -19,7 +19,6 @@ html {
 
 body{
     margin: 0em 10vw;
-    box-shadow: var(--shadow) .5em .5em;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
 }
@@ -53,7 +52,7 @@ header img {
 }
 
 main {
-    background-color: var(--color-tertiary, wheat);
+    background-color: var(--color-tertiary, white);
     min-height: 30vh;
     padding: 1.5em 2em;
     font-family: 'Lato', sans-serif;
@@ -62,14 +61,14 @@ main {
 
 main h2 {
     margin: 0em;
-    color: var(--color-primary, teal);
+    color: var(--color-primary, green);
     font-size: 2.441em;
     line-height: 3em;
     font-weight: 900;
 }
 
 main hr {
-    background-color: var(--color-main, teal);
+    background-color: var(--color-main, green);
     height: .5em;
     border-radius: .5em;
 }
@@ -78,11 +77,11 @@ main p,
 main ul {
     font-size: 1.25em;
     font-weight: 800;
-    color: var(--color-main, teal);
+    color: var(--color-main, green);
 }
 
 main ul li a {
-    color: var(--color-quad, brown);
+    color: var(--color-quad, teal);
     padding-left: .25em;
 }
 
