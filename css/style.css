@@ -1,3 +1,58 @@
-h1{font-size: 74px;
-    font-family: Arial, Helvetica, sans-serif;
-    }
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Lobster&display=swap');
+header {
+    max-height: 10em;
+    width: auto;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    padding: 0em 2em;
+    background-color: #086375;
+    color: #AFFc41;
+}
+h1 {
+    font-size: 3.052em;
+    line-height: 3em;
+    display: inline-block;
+    margin: 0em;
+}
+h2 {
+    margin: 0em;
+    font-size: 2.441em;
+    line-height: 3em;
+    font-weight: 900;
+}
+body{
+    margin: 0em 10vw;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    background-color: #AFFc41;
+}
+
+img {
+    float: right;
+    margin-top: 2.5em;
+    border-radius: 2em;
+}
+
+main {
+    min-height: 30vh;
+    padding: 1.5em 2em;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    color: #086375;
+}
+footer {
+    margin: 0em;
+    padding: 0em 2em;
+    background-color: #086375;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #AFFc41;
+}
+
+footer a {
+    color: cyan;
+}
+footer a:hover {
+    color: white;
+}
