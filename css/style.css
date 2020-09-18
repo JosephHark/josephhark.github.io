@@ -17,9 +17,22 @@ h1 {
 }
 h2 {
     margin: 0em;
-    font-size: 2.441em;
+    font-size: 24px;
     line-height: 3em;
     font-weight: 900;
+}
+main ul {
+    font-size: 1.25em;
+    font-weight: 800;
+    color: #086375;
+}
+
+main ul li a {
+    padding-left: .25em;
+}
+
+main ul li a:hover {
+    padding-left: .25em;
 }
 body{
     margin: 0em 10vw;
@@ -32,6 +45,7 @@ img {
     float: right;
     margin-top: 2.5em;
     border-radius: 2em;
+    max-height: 25%;
 }
 
 main {
