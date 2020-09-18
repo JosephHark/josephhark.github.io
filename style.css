@@ -1,3 +1,110 @@
-h1{font-size: 74px;
-font-family: Arial, Helvetica, sans-serif;
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Lobster&display=swap');
+
+/* Color Definitions */
+:root {
+    --color-main: #074F57;
+    --color-secondary: #da6c58;
+    --color-tertiary: #FDEBC3;
+    --color-quad: #73291C;
+
+}
+
+html {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #c7c7c7;
+}
+
+body{
+    margin: 0em 10vw;
+    box-shadow: var(--shadow) .5em .5em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+header,
+footer {
+    background-color: var(--color-main, teal);
+    padding: 0em 2em;
+    color: var(--color-tertiary, wheat);
+}
+
+header {
+    max-height: 10em;
+    width: auto;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 3.052em;
+    line-height: 3em;
+    display: inline-block;
+    margin: 0em;
+}
+
+header img {
+    float: right;
+    margin-top: 2.5em;
+    border-radius: 2em;
+    box-shadow: var(--shadow) .5em .5em;
+}
+
+main {
+    background-color: var(--color-tertiary, wheat);
+    min-height: 30vh;
+    padding: 1.5em 2em;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+main h2 {
+    margin: 0em;
+    color: var(--color-primary, teal);
+    font-size: 2.441em;
+    line-height: 3em;
+    font-weight: 900;
+}
+
+main hr {
+    background-color: var(--color-main, teal);
+    height: .5em;
+    border-radius: .5em;
+}
+
+main p,
+main ul {
+    font-size: 1.25em;
+    font-weight: 800;
+    color: var(--color-main, teal);
+}
+
+main ul li a {
+    color: var(--color-quad, brown);
+    padding-left: .25em;
+}
+
+main ul li a:hover {
+    color: var(--color-secondary, cyan);
+    padding-left: .25em;
+}
+
+
+footer {
+    margin: 0em;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+footer a {
+    color: var(--color-secondary, cyan);
+}
+footer a:hover {
+    color: white;
 }
