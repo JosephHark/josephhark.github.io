@@ -44,7 +44,7 @@ h1 {
     margin: 0em;
 }
 
-header img {
+img {
     float: right;
     margin-top: 2.5em;
     border-radius: 2em;
@@ -59,18 +59,13 @@ main {
     letter-spacing: 1px;
 }
 
-main h2 {
+h2 {
     margin: 0em;
     color: var(--color-primary, green);
     font-size: 2.441em;
     line-height: 3em;
     font-weight: 900;
 }
-
-main hr {
-    background-color: var(--color-main, green);
-    height: .5em;
-    border-radius: .5em;
 }
 
 main p,
@@ -96,9 +91,6 @@ footer {
     padding: 1em;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    border-bottom-left-radius: inherit;
-    border-bottom-right-radius: inherit;
 }
 
 footer a {
