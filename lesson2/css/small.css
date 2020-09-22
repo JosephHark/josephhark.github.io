@@ -34,7 +34,9 @@ footer {
 	main { grid-template-columns: 1fr 1fr; }
 	
     h1 {font-size: 2rem;}
-    section:nth-child(3)
+    section:nth-child(3){
+        column-span: 2;
+    }
 }
 /*computer veiw
 */
@@ -46,5 +48,6 @@ footer {
 		"nav main main"
 		"footer  footer  footer";
 	}
-	h1 {font-size: 2rem;}
+	h1 {font-size: 2rem;
   }
+}
