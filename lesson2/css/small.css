@@ -2,68 +2,45 @@
 
 /*phone veiw
 */
-header {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    padding: 7px;
-    grid-area: header;
-    justify-content: center;
-    align-items: center;
-    font-family: "Kufam";
-}
-
-h1 {
-    font-size: 1rem;
-}
-
-main {
+.lesson-two{
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 5px;
-    padding: 5px;
-    grid-area: main;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-section {
-    padding: 7px;
-}
-
-footer {
-    padding: 7px;
-    font-size: smaller;
-    grid-area: footer;
-    text-align: center;
-}
-
+    grid-gap: 1em;
+  }
 /*tablet veiw
 */
 @media only screen and (min-width: 37.5em) {
-    main {
+    .lesson-two{
+        display: grid;
         grid-template-columns: 1fr 1fr;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    section:nth-child(3) {
-        column-span: 2;
-    }
+        grid-gap: 1em;
+      }
+      .one{
+        grid-template-columns: 1fr  
+      }
+      .two{
+        grid-template-columns: 1fr
+      }
+      .three{
+          column-span: 2;
+      }
 }
-
+    
 /*computer veiw
 */
 @media only screen and (min-width: 60em) {
-    .gridarea {
+    .lesson-two{
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-            "header  header  header"
-            "nav main main"
-            "footer  footer  footer";
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
+        grid-gap: 1em;
+      }
+      .one{
+        grid-template-columns: 1fr
+      }
+      .two{
+        grid-template-columns: 1fr
+      }
+      .three{
+        grid-template-columns: 1fr
+      }
 }
