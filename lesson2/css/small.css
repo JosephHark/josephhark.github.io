@@ -36,7 +36,7 @@
         grid-template-columns: 1fr
       }
       .three{
-          grid-column: span 2;
+        grid-template-columns: 1fr
       }
       .text-two{
         display: inline-block;
@@ -55,7 +55,7 @@
     
 /*computer veiw
 */
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 40em) {
     .lesson-two{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
