@@ -1,53 +1,69 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500&family=Roboto+Condensed&display=swap');
+
 /*phone veiw
 */
 header {
-	display: grid;
-	grid-template-columns: 200px 1fr;
-	padding: 7px;
-	grid-area: header;
-	justify-content:center;
-    align-items:center;
-    font-family:"Kufam";
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    padding: 7px;
+    grid-area: header;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kufam";
 }
-h1 { font-size: 1rem;}
+
+h1 {
+    font-size: 1rem;
+}
+
 main {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-gap: 5px;
-	padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    padding: 5px;
     grid-area: main;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-section {padding:7px;}
+
+section {
+    padding: 7px;
+}
+
 footer {
-	padding: 7px;
-	font-size: smaller;
-	grid-area: footer;
-	text-align:center;
+    padding: 7px;
+    font-size: smaller;
+    grid-area: footer;
+    text-align: center;
 }
 
 /*tablet veiw
 */
-@media only screen and  (min-width: 37.5em){
-	main { grid-template-columns: 1fr 1fr; }
-	
-    h1 {font-size: 2rem;}
-    section:nth-child(3){
+@media only screen and (min-width: 37.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    section:nth-child(3) {
         column-span: 2;
     }
 }
+
 /*computer veiw
 */
 @media only screen and (min-width: 60em) {
-	.gridarea {
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-areas:
-    "header  header  header"
-		"nav main main"
-		"footer  footer  footer";
-	}
-	h1 {font-size: 2rem;
-  }
+    .gridarea {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "header  header  header"
+            "nav main main"
+            "footer  footer  footer";
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
 }
