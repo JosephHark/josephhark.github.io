@@ -7,6 +7,13 @@
     grid-template-columns: 1fr;
     grid-gap: 1em;
   }
+  .text-one{
+    display: inline-block;      
+}
+.img-one{
+    max-width: 34vw;
+    height: auto;
+}
 /*tablet veiw
 */
 @media only screen and (min-width: 37.5em) {
@@ -24,6 +31,13 @@
       .three{
           column-span: 2;
       }
+      .text-two{
+        display: inline-block;
+      }
+      .img-two{
+        max-width: 34vw;
+        height: auto;
+    }
 }
     
 /*computer veiw
@@ -43,4 +57,11 @@
       .three{
         grid-template-columns: 1fr
       }
+      .text-three{
+        display: inline-block;
+    }
+    .img-three{
+        max-width: 34vw;
+        height: auto;
+    }
 }
