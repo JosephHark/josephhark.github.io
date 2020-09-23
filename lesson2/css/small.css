@@ -8,12 +8,19 @@
     grid-gap: 1em;
   }
   .text-one{
-    display: inline-block;      
+    display: inline-block;
+    background-color: #AFFc41;
+    color: #086375;     
+}
+.head-one{
+    background-color: #086375; 
+    color: #AFFc41;
 }
 .img-one{
     max-width: 34vw;
     height: auto;
 }
+
 /*tablet veiw
 */
 @media only screen and (min-width: 37.5em) {
@@ -29,10 +36,16 @@
         grid-template-columns: 1fr
       }
       .three{
-          column-span: 2;
+          grid-column: span 2;
       }
       .text-two{
         display: inline-block;
+        background-color: #086375;
+        color: #AFFc41;
+      }
+      .head-two{
+        background-color: #AFFc41;
+        color: #086375;
       }
       .img-two{
         max-width: 34vw;
@@ -59,6 +72,12 @@
       }
       .text-three{
         display: inline-block;
+        background-color: #AFFc41;
+        color: #086375;
+    }
+    .head-three{
+        background-color: #086375;
+        color: #AFFc41;
     }
     .img-three{
         max-width: 34vw;
