@@ -27,21 +27,9 @@
     padding: 5px;
     margin: 5px;
 }
-
 .img-one {
-    max-width:300px;
+    max-width: 34vw;
     height: auto;
-    margin-right: 50px;
-}
-.img-two {
-    max-width:300px;
-    height: auto;
-    margin-right: 50px;
-}
-.img-three {
-    max-width:300px;
-    height: auto;
-    margin-right: 50px;
 }
 .one {
     background-color: #01161e;
@@ -73,7 +61,7 @@
 
 /*tablet veiw
 */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width:28em) {
     .lesson-two {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -98,34 +86,25 @@
         padding: 5px;
         margin: 5px;
     }
+
+    .text-two {
+        display: inline-block;
+        background-color: #FFFFFF;
+        padding: 5px;
+        margin: 5px;
+    }
     .text-three {
         display: inline-block;
         background-color: #FFFFFF;
         padding: 5px;
         margin: 5px;
     }
-
-    .img-one {
-        max-width:150px;
-        height: auto;
-        margin-right: 50px;
-    }
-    .img-two {
-        max-width:150px;
-        height: auto;
-        margin-right: 50px;
-    }
-    .img-three {
-        max-width:150px;
-        height: auto;
-        margin-right: 50px;
-    }
     }
 }
 
 /*computer veiw
 */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 40em) {
     .lesson-two {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -159,6 +138,7 @@
         height: auto;
         margin-right: 50px;
     }
+    
     .text-three {
         display: inline-block;
         background-color: #FFFFFF;
