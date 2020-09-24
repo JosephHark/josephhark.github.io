@@ -76,36 +76,26 @@
         display: inline-block;
         background-color: #FFFFFF;
     }
-
-   .img-one {
-    margin-right: 50px;
-}
-.img-two {
-    margin-right: 50px;
-}
-.img-three{
-    margin-right: 50px;
-}
+    .text-three {
+        display: inline-block;
+        background-color: #FFFFFF;
     }
 }
 
 /*computer veiw
 */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width:800px) {
     .lesson-two {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1em;
     }
-
     .one {
         grid-template-columns: 1fr
     }
-
     .two {
         grid-template-columns: 1fr
     }
-
     .three {
         grid-template-columns: 1fr
     }
@@ -113,18 +103,19 @@
     .img-one {
         max-width:250px;
         height: auto;
-        margin-right: 50px;
+        margin-left: 25px;
     }
     .img-two {
         max-width:250px;
         height: auto;
-        margin-right: 50px;
+        margin-left: 25px;
     }
     .img-three {
         max-width:250px;
         height: auto;
-        margin-right: 50px;
+        margin-left: 25px;
     }
+
     .text-three {
         display: inline-block;
         background-color: #FFFFFF;
