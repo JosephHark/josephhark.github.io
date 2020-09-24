@@ -6,14 +6,12 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
-    background-color: #073B4C;
+
 }
 
 .text-one {
     display: inline-block;
     background-color: #FFFFFF;
-}
-
 }
 
 .img-one {
