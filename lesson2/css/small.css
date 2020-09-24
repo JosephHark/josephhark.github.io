@@ -73,7 +73,7 @@
 
 /*tablet veiw
 */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 32.5em) {
     .lesson-two {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -125,7 +125,7 @@
 
 /*computer veiw
 */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
     .lesson-two {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
