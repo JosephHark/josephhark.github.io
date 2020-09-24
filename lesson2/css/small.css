@@ -12,6 +12,8 @@
 .text-one {
     display: inline-block;
     background-color: #FFFFFF;
+    padding: 5px;
+    margin: 5px;
 }
 
 .img-one {
@@ -70,6 +72,8 @@
     .text-two {
         display: inline-block;
         background-color: #FFFFFF;
+        padding: 5px;
+        margin: 5px;
     }
 
     .img-two {
@@ -117,5 +121,7 @@
     .text-three {
         display: inline-block;
         background-color: #FFFFFF;
+        padding: 5px;
+        margin: 5px;
     }
 }
