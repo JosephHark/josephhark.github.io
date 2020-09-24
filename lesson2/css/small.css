@@ -20,6 +20,7 @@
 }
 .one {
     background-color: #01161e;
+    padding: 15px;
 }
 .head-one{
     background-color: #CFD7C7;
@@ -27,14 +28,18 @@
 }
 
 .two {
-    background-color: #01161e;}
+    background-color: #01161e;
+    padding: 15px;
+}
     .head-two{
         background-color: #CFD7C7;
         color: #01161e;
     }
 
 .three {
-    background-color: #01161e;}
+    background-color: #01161e;
+    padding: 15px;
+}
     .head-three{
         background-color: #CFD7C7;
         color: #01161e;
