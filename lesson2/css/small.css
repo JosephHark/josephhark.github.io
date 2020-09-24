@@ -17,8 +17,19 @@
 }
 
 .img-one {
-    max-width: 34vw;
+    max-width:300px;
     height: auto;
+    margin-right: 50px;
+}
+.img-two {
+    max-width:300px;
+    height: auto;
+    margin-right: 50px;
+}
+.img-three {
+    max-width:300px;
+    height: auto;
+    margin-right: 50px;
 }
 .one {
     background-color: #01161e;
@@ -50,7 +61,7 @@
 
 /*tablet veiw
 */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 800px) {
     .lesson-two {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -76,9 +87,21 @@
         margin: 5px;
     }
 
-    .img-two {
-        max-width: 34vw;
+    .img-one {
+        max-width:150px;
         height: auto;
+        margin-right: 50px;
+    }
+    .img-two {
+        max-width:150px;
+        height: auto;
+        margin-right: 50px;
+    }
+    .img-three {
+        max-width:150px;
+        height: auto;
+        margin-right: 50px;
+    }
     }
 }
 
