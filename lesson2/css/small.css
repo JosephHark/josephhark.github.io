@@ -2,85 +2,93 @@
 
 /*phone veiw
 */
-.lesson-two{
+.lesson-two {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
-  }
-  .text-one{
+    background-color: #073B4C;
+}
+
+.text-one {
     display: inline-block;
-    background-color: #AFFc41;
-    color: #086375;     
+    background-color: #FFFFFF;
 }
-.head-one{
-    background-color: #086375; 
-    color: #AFFc41;
+
 }
-.img-one{
+
+.img-one {
     max-width: 34vw;
     height: auto;
 }
 
+
 /*tablet veiw
 */
 @media only screen and (min-width: 32.5em) {
-    .lesson-two{
+    .lesson-two {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
-      }
-      .one{
-        grid-template-columns: 1fr  
-      }
-      .two{
+    }
+
+    .one {
         grid-template-columns: 1fr
-      }
-      .three{
+    }
+
+    .two {
         grid-template-columns: 1fr
-      }
-      .text-two{
+    }
+
+    .three {
+        grid-template-columns: 1fr
+    }
+
+    .text-two {
         display: inline-block;
-        background-color: #086375;
-        color: #AFFc41;
-      }
-      .head-two{
-        background-color: #AFFc41;
-        color: #086375;
-      }
-      .img-two{
+        background-color: #FFFFFF;
+    }
+
+    .img-two {
         max-width: 34vw;
         height: auto;
     }
 }
-    
+
 /*computer veiw
 */
-@media only screen and (min-width: 40em) {
-    .lesson-two{
+@media only screen and (min-width: 1200px) {
+    .lesson-two {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1em;
-      }
-      .one{
-        grid-template-columns: 1fr
-      }
-      .two{
-        grid-template-columns: 1fr
-      }
-      .three{
-        grid-template-columns: 1fr
-      }
-      .text-three{
-        display: inline-block;
-        background-color: #AFFc41;
-        color: #086375;
     }
-    .head-three{
-        background-color: #086375;
-        color: #AFFc41;
+
+    .one {
+        grid-template-columns: 1fr
     }
-    .img-three{
-        max-width: 34vw;
+
+    .two {
+        grid-template-columns: 1fr
+    }
+
+    .three {
+        grid-template-columns: 1fr
+    }
+
+    .img-one {
+        max-width:250px;
         height: auto;
+    }
+    .img-two {
+        max-width:250px;
+        height: auto;
+    }
+    .img-three {
+        max-width:250px;
+        height: auto;
+    }
+    .text-three {
+        display: inline-block;
+        background-color: #FFFFFF;
     }
 }
