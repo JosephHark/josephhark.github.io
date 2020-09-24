@@ -78,20 +78,17 @@
     .img-one {
         max-width:250px;
         height: auto;
-        flex-direction:column; 
-         justify-content:center;
+        margin-right: 50px;
     }
     .img-two {
         max-width:250px;
         height: auto;
-        flex-direction:column; 
-         justify-content:center;
+        margin-right: 50px;
     }
     .img-three {
         max-width:250px;
         height: auto;
-        flex-direction:column; 
-         justify-content:center;
+        margin-right: 50px;
     }
     .text-three {
         display: inline-block;
