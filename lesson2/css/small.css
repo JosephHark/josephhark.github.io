@@ -6,34 +6,31 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
-
 }
 
 .text-one {
     display: inline-block;
     background-color: #FFFFFF;
-    padding: 5px;
-    margin: 5px;
 }
-.text-two {
-    display: inline-block;
-    background-color: #FFFFFF;
-    padding: 5px;
-    margin: 5px;
-}
-.text-three {
-    display: inline-block;
-    background-color: #FFFFFF;
-    padding: 5px;
-    margin: 5px;
-}
+
 .img-one {
-    max-width: 34vw;
+    max-width:150px;
     height: auto;
+    margin-right: 50px;
+}
+.img-two {
+    max-width:150px;
+    height: auto;
+    margin-right: 50px;
+}
+.img-three {
+    max-width:150px;
+    height: auto;
+    margin-right: 50px;
 }
 .one {
     background-color: #01161e;
-    padding: 15px;
+    padding: 25px;
 }
 .head-one{
     background-color: #CFD7C7;
@@ -42,8 +39,7 @@
 
 .two {
     background-color: #01161e;
-    padding: 15px;
-}
+    padding: 25px;}
     .head-two{
         background-color: #CFD7C7;
         color: #01161e;
@@ -51,8 +47,7 @@
 
 .three {
     background-color: #01161e;
-    padding: 15px;
-}
+    padding: 25px;}
     .head-three{
         background-color: #CFD7C7;
         color: #01161e;
@@ -61,7 +56,7 @@
 
 /*tablet veiw
 */
-@media only screen and (min-width:28em) {
+@media only screen and (min-width: 32.5em) {
     .lesson-two {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -83,28 +78,29 @@
     .text-two {
         display: inline-block;
         background-color: #FFFFFF;
-        padding: 5px;
-        margin: 5px;
     }
 
-    .text-two {
-        display: inline-block;
-        background-color: #FFFFFF;
-        padding: 5px;
-        margin: 5px;
+    .img-one {
+        max-width:200px;
+        height: auto;
+        margin-right: 50px;
     }
-    .text-three {
-        display: inline-block;
-        background-color: #FFFFFF;
-        padding: 5px;
-        margin: 5px;
+    .img-two {
+        max-width:200px;
+        height: auto;
+        margin-right: 50px;
+    }
+    .img-three {
+        max-width:200px;
+        height: auto;
+        margin-right: 50px;
     }
     }
 }
 
 /*computer veiw
 */
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 1200px) {
     .lesson-two {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -138,11 +134,8 @@
         height: auto;
         margin-right: 50px;
     }
-    
     .text-three {
         display: inline-block;
         background-color: #FFFFFF;
-        padding: 5px;
-        margin: 5px;
     }
 }
