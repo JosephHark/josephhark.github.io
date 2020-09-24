@@ -12,6 +12,14 @@
     display: inline-block;
     background-color: #FFFFFF;
 }
+.text-two {
+    display: inline-block;
+    background-color: #FFFFFF;
+}
+.text-three {
+    display: inline-block;
+    background-color: #FFFFFF;
+}
 
 .img-one {
     max-width: 300px;
@@ -69,16 +77,7 @@
     }
 
     .three {
-        grid-template-columns: 1fr
-    }
-
-    .text-two {
-        display: inline-block;
-        background-color: #FFFFFF;
-    }
-    .text-three {
-        display: inline-block;
-        background-color: #FFFFFF;
+        grid-template-columns: span 2
     }
 }
 
@@ -116,8 +115,5 @@
         margin-left: 50px;
     }
 
-    .text-three {
-        display: inline-block;
-        background-color: #FFFFFF;
-    }
+
 }
