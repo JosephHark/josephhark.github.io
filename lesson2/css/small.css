@@ -22,16 +22,19 @@
 }
 
 .img-one {
-    max-width: 300px;
+    max-width:25vw;
     height: auto;
+    margin-left: 50px;
 }
 .img-two {
-    max-width: 300px;
+    max-width:25vw;
     height: auto;
+    margin-left: 50px;
 }
-.img-three{
-    max-width: 300px;
+.img-three {
+    max-width:25vw;
     height: auto;
+    margin-left: 50px;
 }
 .one {
     background-color: #01161e;
@@ -98,22 +101,4 @@
     .three {
         grid-template-columns: 1fr
     }
-
-    .img-one {
-        max-width:250px;
-        height: auto;
-        margin-left: 50px;
-    }
-    .img-two {
-        max-width:250px;
-        height: auto;
-        margin-left: 50px;
-    }
-    .img-three {
-        max-width:250px;
-        height: auto;
-        margin-left: 50px;
-    }
-
-
 }
