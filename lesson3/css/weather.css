@@ -41,9 +41,15 @@
     }
     .text-one {
         grid-template-columns: 1fr;
+        display: inline-block;
     }
     .text-two {
         grid-template-columns: 1fr;
+        display: inline-block;
+    }
+    .table-one{
+        max-width:25vw;
+        height: auto;
     }
     .type {
         font-size: 42px;
