@@ -6,28 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description"
         content="Weather website for Joseph Hark in WDD 230: Web Frontend Development at Brigham Young University - Idaho"/>
-    <title>StormGuard</title>
-    <script>
-        var tb1 = document.getElementById("colors");
-        var row1 = tb1.insertRow();
-        var cell1 = row1.insertCell();
-        var cell2 = row1.insertCell();
-        var cell3 = row1.insertCell();
-        var cell4 = row1.insertCell();
-        var row2 = tb1.insertRow();
-        var cell5 = row2.insertCell();
-        var cell6 = row2.insertCell();
-        var cell7 = row2.insertCell();
-        var cell8 = row2.insertCell();
-        cell1.innerHTML ="A";
-        cell2.innerHTML ="A";
-        cell3.innerHTML ="A";
-        cell4.innerHTML ="A";
-        cell5.innerHTML ="A";
-        cell6.innerHTML ="A";
-        cell7.innerHTML ="A";
-        cell8.innerHTML ="A";
-    </script>
+        <link rel="stylesheet" href="css/weather.css"/>
+        <title>StormGuard</title>
 </head>
 
 <body>
@@ -37,27 +17,56 @@
             <div class="logo-box">
                 <img class="home-right-img" src="https://user-images.githubusercontent.com/71291466/94367580-9c816500-00ad-11eb-86fe-a1fd1296bfc2.png" alt="Logo of StormGuard" />
     </header>
-    <p> CSV 
-22223b,4a4e69,9a8c98,717a7d,bbbbb3,7df9ff
-</p>
-<p>
- Array 
-["22223b","4a4e69","9a8c98","717a7d","bbbbb3","7df9ff"]
-</p>
-
-<p>
- Object 
-{"Space Cadet":"22223b","Independence":"4a4e69","Heliotrope Gray":"9a8c98","Nickel":"717a7d","Gray X 11 Gray":"bbbbb3","Electric Blue":"7df9ff"}
-
-<p>
-Extended Array 
-[{"name":"Space Cadet","hex":"22223b","rgb":[34,34,59],"cmyk":[42,42,0,77],"hsb":[240,42,23],"hsl":[240,27,18],"lab":[14,7,-16]},{"name":"Independence","hex":"4a4e69","rgb":[74,78,105],"cmyk":[30,26,0,59],"hsb":[232,30,41],"hsl":[232,17,35],"lab":[34,5,-16]},{"name":"Heliotrope Gray","hex":"9a8c98","rgb":[154,140,152],"cmyk":[0,9,1,40],"hsb":[309,9,60],"hsl":[309,6,58],"lab":[60,7,-4]},{"name":"Nickel","hex":"717a7d","rgb":[113,122,125],"cmyk":[10,2,0,51],"hsb":[195,10,49],"hsl":[195,5,47],"lab":[51,-3,-3]},{"name":"Gray X 11 Gray","hex":"bbbbb3","rgb":[187,187,179],"cmyk":[0,0,4,27],"hsb":[60,4,73],"hsl":[60,6,72],"lab":[76,-1,4]},{"name":"Electric Blue","hex":"7df9ff","rgb":[125,249,255],"cmyk":[51,2,0,0],"hsb":[183,51,100],"hsl":[183,100,75],"lab":[91,-33,-14]}]
-</p>
 
 <a href = "https://coolors.co/22223b-4a4e69-9a8c98-717a7d-bbbbb3-7df9ff">Link to page of colors that may be used</a> 
-<table id = "colors">
+<table>
+    <thead>
     <tr>
+        <th>name</th>
+        <th>font-family</th>
+        <th>font-size</th>
+        <th>Color</th>
     </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class = "color4">Site Header</td>
+        <td>42px</td>
+        <td>Bangers</td>
+        <td>#22223b</td>
+    </tr>
+    <tr>
+        <td class = "color2">Footer</td>
+        <td>14px</td>
+        <td>Secular One</td>
+        <td>#4a4e69</td>
+    </tr>
+    <tr>
+        <td class = "color3">H1</td>
+        <td>36px</td>
+        <td>Peddana</td>
+        <td>#9a8c98</td>
+    </tr>
+    <tr>
+        <td class = "color4">H2</td>
+        <td>30px</td>
+        <td>Peddana</td>
+        <td>#9a8c98</td>
+    </tr>
+    <tr>
+        <td class = "color5">H3</td>
+        <td>24px</td>
+        <td>Peddana</td>
+        <td>#9a8c98</td>
+    </tr>
+    <tr>
+        <td class = "color6">Body Paragraph</td>
+        <td>16px</td>
+        <td>Epilouge</td>
+        <td>#717a7d</td>
+    </tr>
+    </tbody>
 </table>
 </body>
+<script src="build-table.js"></script>
 </html>
