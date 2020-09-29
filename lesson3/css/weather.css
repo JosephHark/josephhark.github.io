@@ -5,38 +5,38 @@
 }
 
 .type {
-    font-size: 42px;
+    font-size: 36px;
     font-family: "Bangers";
     color: #22223b;
 }
 
 .type2 {
-    font-size: 14px;
+    font-size: 10px;
     font-family: "Secular One";
     color: #4a4e69;
 }
 
 .type3 {
-    font-size: 36px;
+    font-size: 30px;
     font-family: "Peddana";
     color: #9a8c98;
 }
 
 .type4 {
-    font-size: 30px;
+    font-size: 24px;
     font-family: "Peddana";
     color: #9a8c98;
 
 }
 
 .type5 {
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Peddana";
     color: #9a8c98;
 }
 
 .type6 {
-    font-size: 16px;
+    font-size: 12px;
     font-family: "Epilogue";
     color: #717a7d;
 }
@@ -60,51 +60,40 @@
     .text-two {
         grid-template-columns: 1fr;
     }
-
-    .table-one {
-        max-width: 35vw;
-        height: auto;
-    }
-
     .type {
-        font-size: 15vw;
+        font-size: 42px;
         font-family: "Bangers";
         color: #22223b;
     }
 
     .type2 {
-        font-size: 4vw;
+        font-size: 36px;
         font-family: "Secular One";
         color: #4a4e69;
     }
 
     .type3 {
-        font-size: 8vw;
+        font-size: 30px;
         font-family: "Peddana";
         color: #9a8c98;
     }
 
     .type4 {
-        font-size: 7.4vw;
+        font-size:24px;
         font-family: "Peddana";
         color: #9a8c98;
 
     }
 
     .type5 {
-        font-size: 6.5vw;
+        font-size: 20px;
         font-family: "Peddana";
         color: #9a8c98;
     }
 
     .type6 {
-        font-size: 6vw;
+        font-size: 16px;
         font-family: "Epilogue";
         color: #717a7d;
-    }
-
-    .table-one {
-        max-width: 25vw;
-        height: auto;
     }
 }
