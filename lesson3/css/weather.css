@@ -3,60 +3,45 @@
     grid-template-columns: 1fr;
     grid-gap: 1em;
 }
-
 .type {
     font-size: 36px;
     font-family: "Bangers";
     color: #22223b;
 }
-
 .type2 {
     font-size: 10px;
     font-family: "Secular One";
     color: #4a4e69;
 }
-
 .type3 {
     font-size: 30px;
     font-family: "Peddana";
     color: #9a8c98;
 }
-
 .type4 {
     font-size: 24px;
     font-family: "Peddana";
     color: #9a8c98;
-
 }
-
 .type5 {
     font-size: 18px;
     font-family: "Peddana";
     color: #9a8c98;
 }
-
 .type6 {
     font-size: 12px;
     font-family: "Epilogue";
     color: #717a7d;
 }
-
-.table-one {
-    max-width: 25vw;
-    height: auto;
-}
-
 @media only screen and (min-width: 32.5em) {
     .lesson3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
     }
-
     .text-one {
         grid-template-columns: 1fr;
     }
-
     .text-two {
         grid-template-columns: 1fr;
     }
@@ -65,32 +50,26 @@
         font-family: "Bangers";
         color: #22223b;
     }
-
     .type2 {
         font-size: 36px;
         font-family: "Secular One";
         color: #4a4e69;
     }
-
     .type3 {
         font-size: 30px;
         font-family: "Peddana";
         color: #9a8c98;
     }
-
     .type4 {
         font-size:24px;
         font-family: "Peddana";
         color: #9a8c98;
-
     }
-
     .type5 {
         font-size: 20px;
         font-family: "Peddana";
         color: #9a8c98;
     }
-
     .type6 {
         font-size: 16px;
         font-family: "Epilogue";
