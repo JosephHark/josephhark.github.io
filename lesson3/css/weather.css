@@ -39,6 +39,9 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
     }
+    .pageheading{
+        grid-template-columns: span 2;
+    }
     .text-one {
         grid-template-columns: 1fr;
         display: inline-block;
