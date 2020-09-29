@@ -61,48 +61,44 @@
         grid-template-columns: 1fr;
     }
 
-    .pageheading {
-        grid-template-columns: span 2;
-    }
-
     .table-one {
         max-width: 35vw;
         height: auto;
     }
 
     .type {
-        font-size: 30vw;
+        font-size: 15vw;
         font-family: "Bangers";
         color: #22223b;
     }
 
     .type2 {
-        font-size: 12vw;
+        font-size: 4vw;
         font-family: "Secular One";
         color: #4a4e69;
     }
 
     .type3 {
-        font-size: 24vw;
+        font-size: 8vw;
         font-family: "Peddana";
         color: #9a8c98;
     }
 
     .type4 {
-        font-size: 20vw;
+        font-size: 7.4vw;
         font-family: "Peddana";
         color: #9a8c98;
 
     }
 
     .type5 {
-        font-size: 18vw;
+        font-size: 6.5vw;
         font-family: "Peddana";
         color: #9a8c98;
     }
 
     .type6 {
-        font-size: 14vw;
+        font-size: 6vw;
         font-family: "Epilogue";
         color: #717a7d;
     }
