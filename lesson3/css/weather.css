@@ -47,11 +47,14 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
     }
-    .one {
-        grid-template-columns: 1fr
+    .text-one {
+        grid-template-columns: 1fr;
     }
-    .two {
-        grid-template-columns: 1fr
+    .text-two {
+        grid-template-columns: 1fr;
+    }
+    .pageheading{
+        grid-template-columns: span 2;
     }
     .table-one{
         max-width:35vw;
