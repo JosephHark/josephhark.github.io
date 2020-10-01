@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
+    background-color: 7df9ff;
 }
 .type {
     font-size: 36px;
