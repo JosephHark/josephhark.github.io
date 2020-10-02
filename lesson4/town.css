@@ -18,7 +18,7 @@
 
 .responsive li {
 	display: block;
-@media only screen and (min-width: 667px) {
+@media only screen and (min-width: 24.25em) {
     .lesson3 {
         .navigation {
             display: flex;
@@ -38,7 +38,7 @@
     }
 
     }
-@media only screen and (min-width: 864px) {
+@media only screen and (min-width: 35.5em) {
     .lesson3 {
         .navigation {
             max-width: 464px;
