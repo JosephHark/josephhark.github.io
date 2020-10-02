@@ -57,9 +57,6 @@ nav {
 	font-weight: 700;
 }
 
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
 .responsive li {
 	display: block;
 }
