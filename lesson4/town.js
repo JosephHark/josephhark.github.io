@@ -19,8 +19,8 @@ let monthNames = [ "January",
 "December"];
 
 let d = new Date();
-let dayName = dayName[d.getDay()];
-let month =monthNames[d.getMonth()];
+let dayNames = dayname[d.getDay()];
+let month = monthNames[d.getMonth()];
 let year = d.getFullYear();
-let fulldate = dayName + " , " + month + " " + d.getDate + " , " + year;
+let fulldate = dayname + " , " + month + " " + d.getDate + " , " + year;
 document.getElementById("currentDate").textContent = fulldate;
