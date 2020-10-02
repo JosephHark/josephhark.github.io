@@ -23,6 +23,7 @@
         .navigation {
             display: flex;
             max-width: 337px;
+            background-color: green;
         }
         .navigation li {
             display: block;
