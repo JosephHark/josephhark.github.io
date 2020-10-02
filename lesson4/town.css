@@ -1,3 +1,7 @@
+
+body{
+    background-color: blue;
+}
 .navigation {
 	list-style: none;
     padding: 0;
@@ -19,11 +23,9 @@
 .responsive li {
 	display: block;
 @media only screen and (min-width: 24.25em) {
-    .lesson3 {
         .navigation {
             display: flex;
             max-width: 337px;
-            background-color: green;
         }
         .navigation li {
             display: block;
@@ -36,11 +38,12 @@
             display: none;
         }
     }
-
-    }
 @media only screen and (min-width: 35.5em) {
-    .lesson3 {
         .navigation {
             max-width: 464px;
-
+            background-color: blueviolet;
     }
+    body{
+        background-color: crimson;
+    }
+}
