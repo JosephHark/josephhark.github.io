@@ -2,42 +2,51 @@
 body{
     background-color: blue;
 }
-.navigation {
-	list-style: none;
-    padding: 0;
-}
-.navigation li:first-child {
-	display: block;
-}
-.navigation li {
-	display: none;
-}
-.navigation a {
-	display: block;
-	padding: 0.75rem;
-	text-align: left;
-	text-decoration: none;
-	font-weight: 700;
-}
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+    }
+    .navigation {
+        list-style: none;
+        padding: 0;
+    }
+    .navigation li:first-child {
+        display: block;
+    }
+    .navigation li {
+        display: none;
+    }
+    .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    }
+    
+    .responsive li {
+        display: block;
+    }
 
 .responsive li {
-	display: block;
+    display: block;
+}
 @media only screen and (min-width: 24.25em) {
-        .navigation {
-            display: flex;
-            max-width: 337px;
-        }
-        .navigation li {
-            display: block;
-            flex: 1 1 auto;
-        }
-        .navigation a {
-            text-align: center;
-        }
-        .navigation li:first-child {
-            display: none;
-        }
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
     }
+}
 @media only screen and (min-width: 35.5em) {
         .navigation {
             max-width: 464px;
