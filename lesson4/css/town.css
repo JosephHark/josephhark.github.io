@@ -1,6 +1,6 @@
 
 body{
-    background-color: blue;
+    background-color: #9a8c98;
 }
     nav {
         margin: 0 auto;
@@ -32,6 +32,10 @@ body{
 .responsive li {
     display: block;
 }
+.navigation ul li a:hover { 
+    color: black;
+    background-color: #747880;
+    }
 @media only screen and (min-width: 24.25em) {
     .navigation {
 		display: flex;
@@ -49,10 +53,9 @@ body{
 }
 @media only screen and (min-width: 35.5em) {
         .navigation {
-            max-width: 464px;
-            background-color: blueviolet;
-    }
-    body{
-        background-color: crimson;
+            max-width: 70%;
+            font-size: 24px;
+            font-family: "Bangers";
+            color: #22223b;
     }
 }
