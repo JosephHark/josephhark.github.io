@@ -1,61 +1,156 @@
-
-body{
+body {
     background-color: #9a8c98;
 }
-    nav {
-        margin: 0 auto;
-        max-width: 760px;
-    }
-    .navigation {
-        list-style: none;
-        padding: 0;
-    }
-    .navigation li:first-child {
-        display: block;
-    }
-    .navigation li {
-        display: none;
-    }
-    .navigation a {
-        display: block;
-        padding: 0.75rem;
-        text-align: left;
-        text-decoration: none;
-        color: black;
-        font-weight: 700;
-    }
-    
-    .responsive li {
-        display: block;
-    }
+
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
 
 .responsive li {
     display: block;
 }
-.navigation ul li a:hover { 
+
+.responsive li {
+    display: block;
+}
+
+.navigation ul li a:hover {
     color: black;
     background-color: #747880;
-    }
+}
+
+nav {
+    font-size: 16px;
+    font-family: "Bangers";
+    color: #22223b;
+}
+
+.h1 {
+    font-size: 36px;
+    font-family: "Bangers";
+    color: #22223b;
+}
+
+.h2 {
+    font-size: 24px;
+    font-family: "Peddana";
+    color: #9a8c98;
+}
+
+.h3 {
+    font-size: 21px;
+    font-family: "Peddana";
+    color: #9a8c98;
+}
+
+main {
+    font-size: 12px;
+    font-family: "Epilogue";
+    color: #717a7d;
+}
+
 @media only screen and (min-width: 24.25em) {
     .navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    nav {
+        font-size: 20px;
+        font-family: "Bangers";
+        color: #22223b;
+    }
+
+    .h1 {
+        font-size: 39px;
+        font-family: "Bangers";
+        color: #22223b;
+    }
+
+    .h2 {
+        font-size: 27px;
+        font-family: "Peddana";
+        color: #9a8c98;
+    }
+
+    .h3 {
+        font-size: 24px;
+        font-family: "Peddana";
+        color: #9a8c98;
+    }
+
+    main {
+        font-size: 16px;
+        font-family: "Epilogue";
+        color: #717a7d;
     }
 }
+
 @media only screen and (min-width: 35.5em) {
-        .navigation {
-            max-width: 70%;
-            font-size: 24px;
-            font-family: "Bangers";
-            color: #22223b;
+    .navigation {
+        max-width: 70%;
+        font-size: 24px;
+        font-family: "Bangers";
+        color: #22223b;
+    }
+
+    .h1 {
+        font-size: 42px;
+        font-family: "Bangers";
+        color: #22223b;
+    }
+
+    .h2 {
+        font-size: 24px;
+        font-family: "Peddana";
+        color: #9a8c98;
+    }
+
+    .h3 {
+        font-size: 20px;
+        font-family: "Peddana";
+        color: #9a8c98;
+    }
+
+    main {
+        font-size: 16px;
+        font-family: "Epilogue";
+        color: #717a7d;
     }
 }
