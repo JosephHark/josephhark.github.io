@@ -81,6 +81,7 @@ main {
 @media only screen and (min-width: 24.25em) {
     .navigation {
         display: flex;
+        justify-content: space-around;
     }
 
     .navigation li {
@@ -107,6 +108,7 @@ main {
         font-size: 39px;
         font-family: "Bangers";
         color: #22223b;
+        text-align: center;
     }
 
     .h2 {
