@@ -131,9 +131,9 @@ main {
         width: 60%;
         padding: 10px;
       }
-      ul.navigation li a:hover,ul.navigation li.active a{
-        background-color: blueviolet;
-       }
+      a:active {
+        background-color: gray;
+      }
 }
 
 @media only screen and (min-width: 35.5em) {
