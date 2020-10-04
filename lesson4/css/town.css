@@ -81,7 +81,7 @@ main {
 @media only screen and (min-width: 24.25em) {
     .navigation {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .navigation li {
@@ -100,7 +100,7 @@ main {
 
     nav {
         font-size: 20px;
-        font-family: "Bangers";
+        font-family: "Epilogue";
         color: #22223b;
     }
 
