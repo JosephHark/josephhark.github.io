@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Epilogue&family=Peddana&display=swap" rel="stylesheet">
 .logo-box {
     background-color: #5DB7DE ;
 }
@@ -130,6 +131,9 @@ main {
         width: 60%;
         padding: 10px;
       }
+      ul.navigation li a:hover,ul.navigation li.active a{
+        background-color: blueviolet;
+       }
 }
 
 @media only screen and (min-width: 35.5em) {
