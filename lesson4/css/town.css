@@ -1,7 +1,9 @@
-body {
-    background-color: #9a8c98;
+.logo-box {
+    background-color: #7df9ff ;
 }
-
+footer{
+    background-color: #7df9ff ;
+}
 nav {
     margin: 0 auto;
     max-width: 760px;
