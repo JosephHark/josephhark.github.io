@@ -81,23 +81,18 @@ main {
 @media only screen and (min-width: 24.25em) {
     .navigation {
         display: flex;
-        justify-content: space-between;
     }
-
     .navigation li {
         display: block;
         /* change state in small view */
         flex: 1 1 auto;
     }
-
     .navigation a {
         text-align: center;
     }
-
     .navigation li:first-child {
         display: none;
     }
-
     nav {
         font-size: 20px;
         font-family: "Epilogue";
