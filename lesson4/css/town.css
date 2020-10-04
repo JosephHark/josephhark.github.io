@@ -1,6 +1,9 @@
-<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Epilogue&family=Peddana&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Epilogue&family=Peddana&display=swap');
+</style>
+
 .logo-box {
-    background-color: #5DB7DE ;
+    background-color:#5db7de;
 }
 nav{
     background-color: #7df9ff ;
