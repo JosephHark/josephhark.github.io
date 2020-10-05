@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Epilogue&family=Peddana&display=swap');
-header{
-    background-color:#5db7de;
+
+header {
+	background-color: #5db7de;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
 }
+
 .logo{
-    max-width: 100px;
-    max-height: auto;
+	width: 100px;
+	height: auto;
 }
-.headings{
-display:flex;
-padding: 5px;
-margin: 10px;
-align-content: flex-start;
-float: right;
+
+.headings {
+	display: flex;
+	flex-direction: column;
 }
+
 nav{
     background-color: #7df9ff ;
 }
