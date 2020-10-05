@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Epilogue&family=Peddana&display=swap');
-.logo-box {
+header{
     background-color:#5db7de;
+}
+.headings{
+display:flex;
+padding: 5px;
+margin: 10px;
+align-content: flex-start;
+}
+.logo{
+    max-width: 100px;
+    max-height: auto;
 }
 nav{
     background-color: #7df9ff ;
