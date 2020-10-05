@@ -1,47 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Epilogue&family=Peddana&display=swap');
-
 header {
-	background-color: #5db7de;
-	padding: 5px 0;
-	display: flex;
-	align-items:center;
-	justify-content:center;
+    background-color: #5db7de;
+    padding: 5px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
-
-.logo{
-	width: 100px;
-	height: auto;
+.logo {
+    width: 100px;
+    height: auto;
 }
-
 .headings {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
-
-nav{
-    background-color: #7df9ff ;
+nav {
+    background-color: #7df9ff;
 }
-footer{
-    background-color: #7df9ff ;
+footer {
+    background-color: #7df9ff;
 }
 nav {
     margin: 0 auto;
     max-width: 760px;
 }
-
 .navigation {
     list-style: none;
     padding: 0;
 }
-
 .navigation li:first-child {
     display: block;
 }
-
 .navigation li {
     display: none;
 }
-
 .navigation a {
     display: block;
     padding: 0.75rem;
@@ -50,56 +42,48 @@ nav {
     color: black;
     font-weight: 700;
 }
-
 .responsive li {
     display: block;
 }
-
 .responsive li {
     display: block;
 }
-
 .navigation ul li a:hover {
     color: black;
     background-color: #747880;
 }
-
 nav {
     font-size: 16px;
     font-family: "Bangers";
     color: #22223b;
 }
-
 .h1 {
     font-size: 36px;
     font-family: "Bangers";
     color: #22223b;
 }
-
 .h2 {
     font-size: 24px;
     font-family: "Peddana";
     color: #9a8c98;
 }
-
 .h3 {
     font-size: 21px;
     font-family: "Peddana";
     color: #9a8c98;
 }
-
 main {
     font-size: 12px;
     font-family: "Epilogue";
     color: #717a7d;
 }
-
 @media only screen and (min-width: 24.25em) {
     .navigation {
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .navigation li {
-        display: block;
         /* change state in small view */
         flex: 1 1 auto;
     }
@@ -109,46 +93,41 @@ main {
     .navigation li:first-child {
         display: none;
     }
-    nav {
+    .navigation{
         font-size: 20px;
         font-family: "Epilogue";
         color: #22223b;
     }
-
     .h1 {
-        font-size: 39px;
+        font-size: 42px;
         font-family: "Bangers";
         color: #22223b;
         text-align: center;
     }
-
     .h2 {
         font-size: 27px;
         font-family: "Peddana";
         color: #9a8c98;
     }
-
     .h3 {
         font-size: 24px;
         font-family: "Peddana";
         color: #9a8c98;
     }
-
     main {
         font-size: 16px;
         font-family: "Epilogue";
         color: #717a7d;
     }
-    footer{
+    footer {
         margin: auto;
         width: 60%;
         padding: 10px;
-      }
-      a:active {
+    }
+    a:active {
         background-color: gray;
-      }
+    }
 }
-
 @media only screen and (min-width: 35.5em) {
     .navigation {
         max-width: 70%;
@@ -156,25 +135,21 @@ main {
         font-family: "Bangers";
         color: #22223b;
     }
-
     .h1 {
-        font-size: 42px;
+        font-size: 54px;
         font-family: "Bangers";
         color: #22223b;
     }
-
     .h2 {
         font-size: 24px;
         font-family: "Peddana";
         color: #9a8c98;
     }
-
     .h3 {
         font-size: 20px;
         font-family: "Peddana";
         color: #9a8c98;
     }
-
     main {
         font-size: 16px;
         font-family: "Epilogue";
