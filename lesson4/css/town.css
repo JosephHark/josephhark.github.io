@@ -2,15 +2,16 @@
 header{
     background-color:#5db7de;
 }
+.logo{
+    max-width: 100px;
+    max-height: auto;
+}
 .headings{
 display:flex;
 padding: 5px;
 margin: 10px;
 align-content: flex-start;
-}
-.logo{
-    max-width: 100px;
-    max-height: auto;
+float: right;
 }
 nav{
     background-color: #7df9ff ;
