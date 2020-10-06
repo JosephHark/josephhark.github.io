@@ -12,7 +12,7 @@ header {
 }
 .headings {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 nav {
     background-color: #7df9ff;
