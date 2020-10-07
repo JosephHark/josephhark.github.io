@@ -14,9 +14,6 @@ header {
     display: flex;
     flex-direction: row;
 }
-.moto{
-    margin-top: 20px;
-}
 nav {
     background-color: #7df9ff;
 }
@@ -25,7 +22,6 @@ footer {
 }
 nav {
     margin: 0 auto;
-    max-width: 760px;
 }
 .navigation {
     list-style: none;
@@ -158,5 +154,9 @@ main {
         font-size: 16px;
         font-family: "Epilogue";
         color: #717a7d;
+    }
+    .moto{
+        margin-top: 70px;
+        margin-right: 75px;
     }
 }
