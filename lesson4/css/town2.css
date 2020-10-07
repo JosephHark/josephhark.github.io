@@ -4,7 +4,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
 header {
     background-color: #5db7de;
     padding: 5px 0;
@@ -12,111 +11,89 @@ header {
     align-items: center;
     justify-content: center;
 }
-
 header img {
     width: 80px;
     height: auto;
 }
-
 .headings {
     display: flex;
     flex-direction: column;
 }
-
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
 }
-
 .m {
     letter-spacing: 1pt;
     margin-left: 20px;
     font-size: .9rem;
 }
-
 nav {
     background-color: #7df9ff;
 }
-
 footer {
     background-color: #7df9ff;
 }
-
 nav {
     margin: 0 auto;
 }
-
 .navigation {
     list-style: none;
     padding: 0;
 }
-
 .navigation li:first-child {
     display: block;
 }
-
 .navigation li {
     display: none;
 }
-
 .navigation a {
     display: block;
     padding: 0.75rem;
     text-align: left;
     text-decoration: none;
-    color: black;
     font-weight: 700;
 }
-
 .responsive li {
     display: block;
 }
-
 .responsive li {
     display: block;
 }
-
 .navigation ul li a:hover {
     color: black;
     background-color: #747880;
 }
-
 nav {
     font-size: 16px;
     font-family: "Epilogue";
     color: #22223b;
 }
-
 .h1 {
     font-size: 36px;
     font-family: "Bangers";
     color: #22223b;
 }
-
 .h2 {
     font-size: 24px;
     font-family: "Peddana";
     color: #9a8c98;
 }
-
 .h3 {
     font-size: 21px;
     font-family: "Peddana";
     color: #9a8c98;
 }
-
 main {
     font-size: 12px;
     font-family: "Epilogue";
     color: #717a7d;
 }
-
 /*Tablet veiw*/
 @media only screen and (min-width: 24.25em) {
     .navigation {
         display: flex;
     }
-
     .navigation li {
         display: block;
         /* change state in small view */
@@ -124,66 +101,72 @@ main {
         align-items: center;
         justify-content: center;
     }
-
     .navigation a {
         text-align: center;
     }
-
     .navigation li:first-child {
         display: none;
     }
-
     .navigation {
         font-size: 20px;
         font-family: "Epilogue";
         color: #22223b;
     }
-
     .h1 {
         font-size: 42px;
         font-family: "Bangers";
         color: #22223b;
         text-align: center;
     }
-
     .h2 {
         font-size: 27px;
         font-family: "Peddana";
         color: #9a8c98;
     }
-
     .h3 {
         font-size: 24px;
         font-family: "Peddana";
         color: #9a8c98;
     }
-
     main {
         font-size: 16px;
         font-family: "Epilogue";
         color: #717a7d;
     }
-
     footer {
         margin: auto;
         width: 50%;
         padding: 10px;
     }
-
+}
     /* Computer viewports */
     @media only screen and (min-width: 32.5em) {
         header img {
             width: 100%;
         }
-
         .headings h1 {
             font-size: 3rem;
+            font-family: "Bangers";
+            color: #22223b;
         }
-
         .m {
             letter-spacing: 1.5pt;
             font-size: larger;
             margin-left: 17px;
         }
+        .h2 {
+            font-size: 24px;
+            font-family: "Peddana";
+            color: #9a8c98;
+        }
+        .h3 {
+            font-size: 20px;
+            font-family: "Peddana";
+            color: #9a8c98;
+        }
+        main {
+            font-size: 16px;
+            font-family: "Epilogue";
+            color: #717a7d;
+        }
     }
-}
