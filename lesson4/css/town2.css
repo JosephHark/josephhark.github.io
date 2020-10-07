@@ -142,7 +142,7 @@ main {
     /* Computer viewports */
     @media only screen and (min-width: 32.5em) {
         header img {
-            width: 100%;
+            width:125px;
         }
         .headings h1 {
             font-size: 3rem;
