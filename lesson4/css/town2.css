@@ -91,6 +91,9 @@ main {
 }
 /*Tablet veiw*/
 @media only screen and (min-width: 24.25em) {
+    nav{
+        width:70%;
+    }
     .navigation {
         display: flex;
     }
