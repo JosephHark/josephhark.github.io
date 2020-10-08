@@ -93,7 +93,7 @@ main {
     margin: 0 auto;
 }
 /*Tablet veiw*/
-@media only screen and (min-width: 24.25em) {
+@media only screen and (min-width: 22.25em) {
     nav{
         width:70%;
     }
