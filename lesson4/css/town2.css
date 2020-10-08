@@ -85,12 +85,15 @@ nav {
 main {
     font-size: 12px;
     font-family: "Epilogue";
-    color: #696969;
     text-align: center;
 }
 .contact-info{
     background-color: #7df9ff;
     margin: 0 auto;
+    color: #696969;
+}
+.home-content{
+    color: #696969;
 }
 /*Tablet veiw*/
 @media only screen and (min-width: 22.25em) {
