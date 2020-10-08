@@ -1,10 +1,10 @@
-let week = ["Monday",
+let week = ["Sunday",
+    "Monday",
 "Tuesday",
 "Wednesday",
 "Thursday",
 "Friday",
-"Saturday",
-"Sunday"];
+"Saturday",];
 let monthNames = [ "January",
 "February",
 "March",
