@@ -92,6 +92,13 @@ main {
 .home-content{
     color: #696969;
 }
+.home-head-three img{
+    max-width: 100px;
+    max-height: auto;
+    float: left;
+    margin: 7px;
+    padding: 5px;
+}
 /*Tablet veiw*/
 @media only screen and (min-width: 22.25em) {
     nav{
@@ -144,6 +151,11 @@ main {
         width: 50%;
         padding: 10px;
     }
+    .home-head-three img{
+        max-width: 150px;
+        margin: 9px;
+        padding: 7px;
+    }
 }
     /* Computer viewports */
     @media only screen and (min-width: 32.5em) {
@@ -174,5 +186,10 @@ main {
             font-size: 16px;
             font-family: "Epilogue";
             color: #717a7d;
+        }
+        .home-head-three img{
+            max-width: 180px;
+            margin: 10px;
+            padding: 8px;
         }
     }
