@@ -55,9 +55,6 @@ footer {
 .responsive li {
     display: block;
 }
-.responsive li {
-    display: block;
-}
 .navigation ul li a:hover {
     color: black;
     background-color: #747880;
