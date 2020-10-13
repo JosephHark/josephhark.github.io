@@ -156,6 +156,16 @@ main {
         margin: 9px;
         padding: 7px;
     }
+    #hero{
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        max-width: 960px;
+    }
+    
+    #heroimg {
+        width: 100%;
+    }
 }
     /* Computer viewports */
     @media only screen and (min-width: 32.5em) {
