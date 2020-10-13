@@ -103,7 +103,7 @@ main {
     text-align: center;
 }
 
-#forecast_box, #article_box {
+#five, #article {
     background-color: #dadbdc;
     margin-bottom: .2em;
     max-width: 960px;
@@ -121,7 +121,7 @@ main {
     width: 100%;
 }
 
-#weather_summary {
+#weatherSum{
     position: absolute;
     background-color: rgba(95, 77, 123, 0.85);
     box-shadow: 0px 0px 25px #444444;
@@ -129,7 +129,7 @@ main {
     left: 25px;
 }
 
-#ws {
+#wsheader{
     padding-top: .5em;
     padding-left: 2em;
     padding-right: 2em;
@@ -155,10 +155,6 @@ td {
 td:first-child {
     text-align: right;
     font-weight: bold;
-}
-
-#town_box {
-    border-bottom: 2px solid #444444;
 }
 
 #town {
