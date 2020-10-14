@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title class="title">Joseph Hark assignment Portal</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div id="content">
+      <header>
+      
+        
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Week 2</a></li>
+            <li><a href="#">Week 3</a></li>
+            <li><a href="#">Week 4</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+       <div class="banner-box">
+        </div>
+        <div class="home-grid">
+          <h2 class="home-headline-1"> Why are we doing this?</h2>
+          <p class="home-paragraph-1">
+            Even in our day and age of getting things almost instantly there are still people who go to bed hungry and are without access to clean water. Almost 815 million people who go to bed hungry and 785 million who suffer from dirty water. And despite the effort of global relief groups that number goes up when natural disaster strike, the effects of such even worse in areas with few or poorly kept roads.
+          </p>
+          
+          <img class="home-img-1" src="https://cdn.glitch.com/c8a6bc6f-1d50-47a4-a0d4-4cc5925d427f%2F18576.jpg?v=1582648824106" alt="Image for homepage" />
+          
+          <h2 class="home-headline-2">Our Mission</h2>
+          <p class="home-paragraph-2">
+            The Heart to Hand Disaster Services team is among the first to respond to disasters at home and around the world to distribute much need food and water. Highly regarded for our distribution model, we utilize a specialized disaster response fleet, and a highly trained team of staff and volunteers to respond to disasters quickly and effectively. We serve millions of people affected by natural and man-made disasters every year through partnerships with local churches, businesses, government agencies, other nonprofits, and our incredible donors and volunteers.
+          </p>
+          <img class="home-img-2" src="https://cdn.glitch.com/c8a6bc6f-1d50-47a4-a0d4-4cc5925d427f%2Fphoto-1532629345422-7515f3d16bb6.jpg?v=1582648950283" alt="Image for homepage" />
+          
+        </div>
+      </main>
+      <footer>
+      <div class="social">
+        <a href="site-plan.html">Site Plan</a>
+         <p>&copy; 2020 Hearts And Hands- Joseph Hark - WDD 130-14</p>
+      <div class="social">
+        <a target="_blank" href="https://www.facebook.com/m">
+          <img src="https://cdn.glitch.com/1a0fc109-00b8-402f-9588-a85d3c86f107%2Ffacebook.png?v=1579662658573" alt="Facebook icon">
+        </a>
+        <a target="_blank" href="https://www.instagram.com/">
+          <img src="https://cdn.glitch.com/1a0fc109-00b8-402f-9588-a85d3c86f107%2Finstagram.png?v=1579662274355" alt="Instagram icon">
+        </a>
+        <a target="_blank" href="https://www.youtube.com/">
+          <img src="https://cdn.glitch.com/1a0fc109-00b8-402f-9588-a85d3c86f107%2Fyoutube.png?v=1579662278865" alt="Youtube icon" >
+        </a>
+        </div>  
+      </div>
+    </footer>
+    </div>
+  </body>
+  </html>
