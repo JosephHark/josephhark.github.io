@@ -231,7 +231,7 @@ footer a {
 	color: black;
 }
 /*Tablet veiw*/
-@media only screen and (min-width: 43.6em) {
+@media only screen and (min-width: 500px) {
     .navigation {
         display: flex;
     }
@@ -288,46 +288,36 @@ footer a {
         width: 50%;
         padding: 10px;
     }
-    #hero_box img {
+    #hero-box img {
         display: flex;
         align-items: center;
         width: 70%;
     }
-    .grid { 
-        display: grid;
-        grid-template-rows: repeat(auto-fit, minmax(50px,1fr));
-        border-right: 5px solid #333;
-        max-height: fit-content;
-        }
-        
-        .col-head {
-            display: block;
-            padding: 5px;
-            border-bottom: 5px solid #333;
-            text-align: center;
-        }
-        
-       .grid img {
-            border-radius: 100px;
-            padding: 0.25rem;
-        }
-        .column img {
-            width: 50%;
-        }
-    .grid-col {
-        border-bottom: 5px solid #333;
-        border-left: 5px solid #333;
+    .column {
+        column-count: 6;
+        column-gap: 0;
+    }
+    .column img {
+        width: 50%;
+    }
+    .column-col {
+        background-color: #abe;
+    }
+    .col-head {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #333;
         text-align: center;
     }
-    .grid-col:hover {
-        opacity: 0.75;
-        background-color: white;
-        color: black;
+    /* Grid */
+    .grid { 
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
     }
 }
 
 /* Computer viewports */
-@media only screen and (min-width: 72em) {
+@media only screen and (min-width: 850px) {
     header img {
         width: 125px;
     }
