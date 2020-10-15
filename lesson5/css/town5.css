@@ -190,8 +190,6 @@ footer a {
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
     border-right: 5px solid #333;
-    max-height: fit-content;
-    max-width: 80%;
     }
     
     .col-head {
@@ -284,6 +282,37 @@ footer a {
         display: flex;
         align-items: center;
         width: 70%;
+    }
+    .grid { 
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+        border-right: 5px solid #333;
+        max-height: fit-content;
+        }
+        
+        .col-head {
+            display: block;
+            padding: 5px;
+            border-bottom: 5px solid #333;
+            text-align: center;
+        }
+        
+       .grid img {
+            border-radius: 100px;
+            padding: 0.25rem;
+        }
+        .column img {
+            width: 50%;
+        }
+    .grid-col {
+        border-bottom: 5px solid #333;
+        border-left: 5px solid #333;
+        text-align: center;
+    }
+    .grid-col:hover {
+        opacity: 0.75;
+        background-color: white;
+        color: black;
     }
 }
 
