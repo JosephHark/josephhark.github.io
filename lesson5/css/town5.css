@@ -82,7 +82,7 @@ nav {
     display: none;
     padding: 1em;
     border: 1px solid #444444;
-    background-color: #5993a3;
+    background-color: #01065a;
     color: #ffffff;
 }
 
@@ -118,7 +118,7 @@ main {
 }
 
 #weatherSum {
-    background-color: #5f4d7b;
+    background-color: #0275f4;
     top: 25px;
     left: 25px;
     border-top: 1px solid #444444;
@@ -159,7 +159,7 @@ footer a {
 
 .flex-col:hover {
     opacity: 0.75;
-    background-color: black;
+    background-color: #021ca4;
     color: white;
 }
 
@@ -282,7 +282,6 @@ footer a {
 
     #weatherSum {
         position: absolute;
-        background-color: rgba(95, 77, 123, 0.85);
         box-shadow: 0px 0px 25px #444444;
         top: 25px;
         left: 25px;
@@ -294,7 +293,7 @@ footer a {
         padding-right: 2em;
         color: #FBFBFA;
         text-decoration: underline;
-        font-size: 12px;
+        font-size: 18px;
         font-family: "Epilogue";
     }
 
