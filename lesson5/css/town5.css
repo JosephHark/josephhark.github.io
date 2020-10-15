@@ -213,7 +213,7 @@ footer a {
 	flex: 1 1 auto;
 	background-color: #bed;
 }
-.flex-col,{
+.flex-col{
 	border-bottom: 1px solid #333;
 	border-left: 1px solid #333;
 	text-align: center;
@@ -223,7 +223,7 @@ footer a {
 	background-color: black;
 	color: white;
 }
-.flex, {
+.flex {
 	border-right: 1px solid #333;
 }
 
@@ -243,7 +243,7 @@ footer a {
 	border-radius: 100px;
 	padding: 0.25rem;
 }
-.col-head,{
+.col-head{
 	font-weight: 700;
 	font-size: 1rem;
 	background-color: black;
