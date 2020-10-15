@@ -231,11 +231,7 @@ footer a {
 	color: black;
 }
 /*Tablet veiw*/
-@media only screen and (min-width: 25.25em) {
-    nav {
-        width: 70%;
-    }
-
+@media only screen and (min-width: 43.6em) {
     .navigation {
         display: flex;
     }
@@ -299,7 +295,7 @@ footer a {
     }
     .grid { 
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+        grid-template-rows: repeat(auto-fit, minmax(50px,1fr));
         border-right: 5px solid #333;
         max-height: fit-content;
         }
@@ -331,7 +327,7 @@ footer a {
 }
 
 /* Computer viewports */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 72em) {
     header img {
         width: 125px;
     }
