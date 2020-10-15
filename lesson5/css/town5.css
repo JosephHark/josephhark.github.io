@@ -190,7 +190,7 @@ footer a {
 }
 .grid { 
 	display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+    grid-template-rows: repeat(auto-fit, minmax(50px,1fr));
     border-right: 5px solid #333;
     }
     .col-head {
@@ -203,10 +203,8 @@ footer a {
    .grid img {
         border-radius: 100px;
         padding: 0.25rem;
-    }
-    .column img {
         width: 10%;
-        height:auto;
+        height: auto;
     }
 .grid-col {
 	border-bottom: 5px solid #333;
