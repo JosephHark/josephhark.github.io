@@ -75,6 +75,20 @@ nav {
     font-family: "Epilogue";
     color: #22223b;
 }
+.message {
+    display: none;
+    padding: 1em;
+    border: 1px solid #444444;
+    background-color: #5993a3;
+    color: #ffffff;
+}
+
+.message p {
+    max-width: 960px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin: 0 auto;
+}
 
 .h1 {
     font-size: 36px;

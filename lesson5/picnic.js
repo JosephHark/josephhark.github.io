@@ -1,14 +1,6 @@
-let week = ["Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-];
-let d = new Date();
-let dayname = week[d.getDay()];
-if (dayname == "Friday") {
-    var banner = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
-    document.getElementById("picnic").textContent = banner;
-}
+const d = new Date();
+let message = document.querySelector(".message");
+
+if (d.getDay() == 5) {
+    message.style.display = "block";
+};
