@@ -114,8 +114,10 @@ main {
     max-width: 960px;
 }
 
-#hero_box img {
-    width:15%;
+#hero-box img {
+    width: 100%;
+    border-bottom: 1px solid #444444;
+    margin-bottom: 1em;
 }
 
 #weatherSum {
@@ -191,7 +193,6 @@ footer a {
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
     border-right: 5px solid #333;
     }
-    
     .col-head {
         display: block;
         padding: 5px;
@@ -204,7 +205,8 @@ footer a {
         padding: 0.25rem;
     }
     .column img {
-        width: 50%;
+        width: 10%;
+        height:auto;
     }
 .grid-col {
 	border-bottom: 5px solid #333;
@@ -217,7 +219,7 @@ footer a {
 	color: black;
 }
 /*Tablet veiw*/
-@media only screen and (min-width: 22.25em) {
+@media only screen and (min-width: 25.25em) {
     nav {
         width: 70%;
     }
