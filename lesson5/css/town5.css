@@ -187,12 +187,13 @@ footer a {
 #contact-grid {
     padding-top: 1em;
     padding-bottom: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
 }
-
+.grid { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+}
+.grid-col {
+}
 /*Tablet veiw*/
 @media only screen and (min-width: 22.25em) {
     nav {
