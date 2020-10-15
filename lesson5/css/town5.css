@@ -75,7 +75,9 @@ nav {
     font-family: "Epilogue";
     color: #22223b;
 }
-
+#hero-box img{
+    width: 100%;
+}
 .message {
     display: none;
     padding: 1em;
