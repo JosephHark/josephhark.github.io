@@ -191,13 +191,15 @@ footer a {
 .grid { 
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
-    border-right: 1px solid #333;
+    border-right: 5px solid #333;
+    max-height: fit-content;
+    max-width: 80%;
     }
     
     .col-head {
         display: block;
         padding: 5px;
-        border-bottom: 1px solid #333;
+        border-bottom: 5px solid #333;
         text-align: center;
     }
     
@@ -205,15 +207,18 @@ footer a {
         border-radius: 100px;
         padding: 0.25rem;
     }
+    .column img {
+        width: 50%;
+    }
 .grid-col {
-	border-bottom: 1px solid #333;
-	border-left: 1px solid #333;
+	border-bottom: 5px solid #333;
+	border-left: 5px solid #333;
 	text-align: center;
 }
 .grid-col:hover {
 	opacity: 0.75;
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 }
 /*Tablet veiw*/
 @media only screen and (min-width: 22.25em) {
