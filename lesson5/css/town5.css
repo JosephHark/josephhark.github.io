@@ -202,33 +202,52 @@ footer a {
     padding-top: 1em;
     padding-bottom: 1em;
 }
-.grid { 
-	display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
-    border-right: 5px solid #333;
-    }
-    .col-head {
-        display: block;
-        padding: 5px;
-        border-bottom: 5px solid #333;
-        text-align: center;
-    }
-    
-   .grid img {
-        border-radius: 100px;
-        padding: 0.25rem;
-        width: 10%;
-        height: auto;
-    }
-.grid-col {
-	border-bottom: 5px solid #333;
-	border-left: 5px solid #333;
+.flex {
+	display: flex;
+	/* flex-direction: row; */
+	/* let us combine row and wrap with flow */
+	flex-flow: row wrap;
+}
+
+.flex-col {
+	flex: 1 1 auto;
+	background-color: #bed;
+}
+.flex-col,{
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
 	text-align: center;
 }
-.grid-col:hover {
+.flex-col:hover{
 	opacity: 0.75;
-	background-color: white;
-	color: black;
+	background-color: black;
+	color: white;
+}
+.flex, {
+	border-right: 1px solid #333;
+}
+
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+	text-align: center;
+}
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+.flex img {
+	border-radius: 100px;
+	padding: 0.25rem;
+}
+.col-head,{
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: black;
+	color: white;
 }
 /*Tablet veiw*/
 @media only screen and (min-width: 500px) {
