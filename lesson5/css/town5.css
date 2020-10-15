@@ -187,6 +187,9 @@ footer a {
 	background-color: black;
 	color: white;
 }
+#article img{
+width: 100%;
+}
 /*Tablet veiw*/
 @media only screen and (min-width: 500px) {
     .navigation {
@@ -260,7 +263,7 @@ footer a {
     }
     
     #hero-box img {
-        width: 70%;
+        width: 100%;
         border-bottom: 1px solid #444444;
         margin-bottom: 1em;
     }
@@ -314,6 +317,9 @@ footer a {
         padding-top: 1.5em;
         padding-bottom: 1.5em;
     } 
+    #article img{
+        width: 80%;
+        }
 }
 
 /* Computer viewports */
