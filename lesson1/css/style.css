@@ -1,16 +1,33 @@
 /* Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Lobster&display=swap');
 
+html {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0em 10vw;
+    box-shadow: var(--shadow) .5em .5em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    background-color:#CACF85 ;
+    color:#658E9C ;
+}
+
+header,
+footer {
+    padding: 0em 2em;
+    background-color:#658E9C ;
+    color:#CACF85 ;
+}
+
 header {
     max-height: 10em;
     width: auto;
     font-family: 'Lobster', cursive;
     letter-spacing: 2px;
-    padding: 0em 2em;
-    background-color: #CACF85;
-    color: #658E9C;
-    position: relative;
-    display: inline-block;
 }
 
 h1 {
@@ -20,46 +37,51 @@ h1 {
     margin: 0em;
 }
 
-h2 {
+header img {
+    float: right;
+    margin-top: 2.5em;
+    border-radius: 2em;
+    box-shadow: var(--shadow) .5em .5em;
+}
+
+main {
+
+    min-height: 30vh;
+    padding: 1.5em 2em;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+main h2 {
     margin: 0em;
+
     font-size: 2.441em;
     line-height: 3em;
     font-weight: 900;
 }
 
-img {
-    margin-top: 2.5em;
-    border-radius: 2em;
-    max-width: 34vw;
-    height: auto;
-    float: left;
+main p,
+main ul {
+    font-size: 1.25em;
+    font-weight: 800;
+
 }
 
-main {
-    min-height: 30vh;
-    padding: 1.5em 2em;
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 1px;
-    background-color:#4D5382;
-    color: #8CBA80;
-    display: inline-block;
-    margin: 0em 10vw;
-    border-bottom-left-radius: 2em;
-    border-bottom-right-radius: 2em;
+main ul li a {
+
+    padding-left: .25em;
 }
 
 footer {
     margin: 0em;
-    padding: 0em 2em;
-    background-color: #CACF85;
+    padding: 1em;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    color: #658E9C;
+    font-weight: 900;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
 }
 
-footer a {
-    color: cyan;
-}
 
 footer a:hover {
     color: white;
