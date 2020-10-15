@@ -75,6 +75,7 @@ nav {
     font-family: "Epilogue";
     color: #22223b;
 }
+
 .message {
     display: none;
     padding: 1em;
@@ -136,60 +137,68 @@ footer a {
     color: #444444;
 }
 
-#contact-grid {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
 .flex {
-	display: flex;
-	/* flex-direction: row; */
-	/* let us combine row and wrap with flow */
-	flex-flow: row wrap;
+    display: flex;
+    /* flex-direction: row; */
+    /* let us combine row and wrap with flow */
+    flex-flow: row wrap;
 }
 
 .flex-col {
-	flex: 1 1 auto;
-	background-color: #bed;
+    flex: 1 1 auto;
+    background-color: #bed;
 }
-.flex-col{
-	border-bottom: 1px solid #333;
-	border-left: 1px solid #333;
-	text-align: center;
+
+.flex-col {
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    text-align: center;
 }
-.flex-col:hover{
-	opacity: 0.75;
-	background-color: black;
-	color: white;
+
+.flex-col:hover {
+    opacity: 0.75;
+    background-color: black;
+    color: white;
 }
+
 .flex {
-	border-right: 1px solid #333;
+    border-right: 1px solid #333;
 }
 
 .col-head {
-	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #333;
-	text-align: center;
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+    text-align: center;
 }
+
 .data {
-	display: block;
-	padding: 0 5px 5px;
-	font-size: 0.8rem;
-	text-align: center;
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 0.8rem;
+    text-align: center;
 }
+
 .flex img {
-	border-radius: 100px;
-	padding: 0.25rem;
+    border-radius: 100px;
+    padding: 0.25rem;
 }
-.col-head{
-	font-weight: 700;
-	font-size: 1rem;
-	background-color: black;
-	color: white;
+
+.col-head {
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
 }
-#article img{
-width: 100%;
+
+#article img {
+    width: 100%;
 }
+
+#contact-grid img {
+    width: 100%;
+}
+
 /*Tablet veiw*/
 @media only screen and (min-width: 500px) {
     .navigation {
@@ -248,26 +257,27 @@ width: 100%;
         width: 50%;
         padding: 10px;
     }
+
     #five,
     #article {
         margin-bottom: .2em;
         max-width: 960px;
         margin: 0 auto;
     }
-    
+
     #hero-box {
         position: relative;
         margin: 0 auto;
         margin-bottom: 2em;
         max-width: 960px;
     }
-    
+
     #hero-box img {
         width: 100%;
         border-bottom: 1px solid #444444;
         margin-bottom: 1em;
     }
-    
+
     #weatherSum {
         position: absolute;
         background-color: rgba(95, 77, 123, 0.85);
@@ -275,7 +285,7 @@ width: 100%;
         top: 25px;
         left: 25px;
     }
-    
+
     #wsheader {
         padding-top: .5em;
         padding-left: 2em;
@@ -285,41 +295,49 @@ width: 100%;
         font-size: 12px;
         font-family: "Epilogue";
     }
-    
+
     table {
         width: 90%;
         border: 1em;
         padding-bottom: 2em;
     }
-    
+
     table tr td {
         height: 1.5em;
         color: #FBFBFA;
     }
-    
+
     td {
         text-align: left;
     }
-    
+
     td:first-child {
         text-align: right;
         font-weight: bold;
     }
-    
+
     #town {
         padding-top: .5em;
         padding-bottom: .5em;
         padding-left: 2.25em;
     }
-    
+
     #five,
     #article {
         padding-top: 1.5em;
         padding-bottom: 1.5em;
-    } 
-    #article img{
+    }
+
+    #article img {
         width: 80%;
-        }
+    }
+
+    #contact-grid {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 /* Computer viewports */
