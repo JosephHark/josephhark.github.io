@@ -115,9 +115,7 @@ main {
 }
 
 #hero_box img {
-    display: flex;
-    align-items: center;
-    width:25%;
+    width:15%;
 }
 
 #weatherSum {
