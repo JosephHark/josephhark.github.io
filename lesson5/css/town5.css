@@ -117,7 +117,7 @@ main {
 #hero_box img {
     display: flex;
     align-items: center;
-    width: 70%;
+    width:25%;
 }
 
 #weatherSum {
@@ -190,9 +190,30 @@ footer a {
 }
 .grid { 
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
-}
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+    border-right: 1px solid #333;
+    }
+    
+    .col-head {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #333;
+        text-align: center;
+    }
+    
+   .grid img {
+        border-radius: 100px;
+        padding: 0.25rem;
+    }
 .grid-col {
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	text-align: center;
+}
+.grid-col:hover {
+	opacity: 0.75;
+	background-color: black;
+	color: white;
 }
 /*Tablet veiw*/
 @media only screen and (min-width: 22.25em) {
@@ -255,6 +276,11 @@ footer a {
         margin: auto;
         width: 50%;
         padding: 10px;
+    }
+    #hero_box img {
+        display: flex;
+        align-items: center;
+        width: 70%;
     }
 }
 
