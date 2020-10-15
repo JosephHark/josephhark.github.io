@@ -114,74 +114,12 @@ main {
     text-align: center;
 }
 
-#five,
-#article {
-    margin-bottom: .2em;
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-#hero-box {
-    position: relative;
-    margin: 0 auto;
-    margin-bottom: 2em;
-    max-width: 960px;
-}
-
-#hero-box img {
-    width: 100%;
-    border-bottom: 1px solid #444444;
-    margin-bottom: 1em;
-}
-
 #weatherSum {
-    position: absolute;
-    background-color: rgba(95, 77, 123, 0.85);
-    box-shadow: 0px 0px 25px #444444;
+    background-color: #5f4d7b;
     top: 25px;
     left: 25px;
-}
-
-#wsheader {
-    padding-top: .5em;
-    padding-left: 2em;
-    padding-right: 2em;
-    color: #FBFBFA;
-    text-decoration: underline;
-    font-size: 12px;
-    font-family: "Epilogue";
-}
-
-table {
-    width: 90%;
-    border: 1em;
-    padding-bottom: 2em;
-}
-
-table tr td {
-    height: 1.5em;
-    color: #FBFBFA;
-}
-
-td {
-    text-align: left;
-}
-
-td:first-child {
-    text-align: right;
-    font-weight: bold;
-}
-
-#town {
-    padding-top: .5em;
-    padding-bottom: .5em;
-    padding-left: 2.25em;
-}
-
-#five,
-#article {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
 }
 
 footer {
@@ -307,10 +245,74 @@ footer a {
         width: 50%;
         padding: 10px;
     }
-    #hero_box img {
-        display: flex;
-        align-items: center;
+    #five,
+    #article {
+        margin-bottom: .2em;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+    #hero-box {
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        max-width: 960px;
+    }
+    
+    #hero-box img {
         width: 70%;
+        border-bottom: 1px solid #444444;
+        margin-bottom: 1em;
+    }
+    
+    #weatherSum {
+        position: absolute;
+        background-color: rgba(95, 77, 123, 0.85);
+        box-shadow: 0px 0px 25px #444444;
+        top: 25px;
+        left: 25px;
+    }
+    
+    #wsheader {
+        padding-top: .5em;
+        padding-left: 2em;
+        padding-right: 2em;
+        color: #FBFBFA;
+        text-decoration: underline;
+        font-size: 12px;
+        font-family: "Epilogue";
+    }
+    
+    table {
+        width: 90%;
+        border: 1em;
+        padding-bottom: 2em;
+    }
+    
+    table tr td {
+        height: 1.5em;
+        color: #FBFBFA;
+    }
+    
+    td {
+        text-align: left;
+    }
+    
+    td:first-child {
+        text-align: right;
+        font-weight: bold;
+    }
+    
+    #town {
+        padding-top: .5em;
+        padding-bottom: .5em;
+        padding-left: 2.25em;
+    }
+    
+    #five,
+    #article {
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
     } 
 }
 
