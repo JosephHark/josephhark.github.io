@@ -60,7 +60,9 @@ nav {
     text-decoration: none;
     font-weight: 700;
 }
-
+.active {
+    text-decoration: underline;
+}
 .responsive li {
     display: block;
 }
