@@ -1,13 +1,13 @@
 /* Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Lobster&display=swap');
-#assignment-header {
+header {
     max-height: 10em;
     width: auto;
     font-family: 'Lobster', cursive;
     letter-spacing: 2px;
     padding: 0em 2em;
     background-color: #086375;
-    color: white;
+    color: #AFFc41;
 }
 h1 {
     font-size: 3.052em;
@@ -20,6 +20,12 @@ h2 {
     font-size: 2.441em;
     line-height: 3em;
     font-weight: 900;
+}
+body{
+    margin: 0em 10vw;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    background-color: #AFFc41;
 }
 
 img {
