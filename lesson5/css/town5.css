@@ -272,13 +272,12 @@ footer a {
     #hero-box {
         position: relative;
         margin: 0 auto;
-        margin-bottom: 2em;
+        margin-bottom: 15px;
         max-width: 960px;
     }
 
     #hero-box img {
         width: 100%;
-        border-bottom: 1px solid #444444;
         margin-bottom: 1em;
     }
 
