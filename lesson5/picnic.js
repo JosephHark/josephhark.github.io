@@ -3,4 +3,6 @@ let message = document.querySelector(".message");
 
 if (d.getDay() == 5) {
     message.style.display = "block";
+} else {
+    message.style.display = "none";
 };
