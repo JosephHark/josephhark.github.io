@@ -135,19 +135,19 @@ main {
 .overlay-small{
     position: absolute;
     top: 8px;
-    left: 16px;
+    right: 16px;
     display:block;
   }
 .overlay-med{
     position: absolute;
     top: 8px;
-    left: 16px;
+    right: 16px;
     display:none;
   }
   .overlay-lg{
     position: absolute;
     top: 8px;
-    left: 16px;
+    right: 16px;
     display:none;
   }
 
@@ -302,20 +302,20 @@ footer a {
     .overlay-small{
         position: absolute;
         top: 8px;
-        left: 16px;
+        right: 16px;
         display:none;
       }
     .overlay-med{
         position: absolute;
         top: 8px;
-        left: 16px;
+        right: 16px;
         display:block;
       }
       .overlay-lg{
         position: absolute;
         top: 8px;
-        left: 16px;
-        display:block
+        right: 16px;
+        display:none;
       }
 
     #hero-box img {
@@ -431,13 +431,13 @@ footer a {
     .overlay-med{
         position: absolute;
         top: 8px;
-        left: 16px;
+        right: 16px;
         display:none;
       }
       .overlay-lg{
         position: absolute;
         top: 8px;
-        left: 16px;
+        right: 16px;
         display:block;
       }
 
