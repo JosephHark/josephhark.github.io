@@ -1,5 +1,5 @@
-let speed = document.getElementById('speed');
-let temp = document.getElementById('temp');
+let t = 69;
+let speed = 15;
 /*Calculates windchill*/
 function buildWC(speed,temp){
     let feelTemp = document.getElementById('chill');
