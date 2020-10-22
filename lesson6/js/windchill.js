@@ -1,16 +1,5 @@
-let t = 69;
-let speed = 15;
-/*Calculates windchill*/
-function buildWC(speed,temp){
-    let feelTemp = document.getElementById('chill');
-
-    //compute
-    let wc = 35.74 + (0.6215 * t) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * t * Math.pow(speed, 0.16));
-    console.log(wc);
-    wc=Math.floor(wc);
-
-    //if windchill is greater than temp return windchill
-    wc = (wc > temp) ? temp:wc;
-    console.log(wc);
-    feelTemp.innerHTML = wc;
+function windChill(tempF, speed) {
+  let s = Math.pow(speed, 0.16);
+  f = 35.74 + (0.6215 * tempF) - (35.75 * s) + (0.4275 * tempF * s);
+  return f.toFixed(2) + "&#8457;";
 }
