@@ -1,7 +1,7 @@
 let t = 69;
 let speed = 15;
 /*Calculates windchill*/
-function buildWC(speed,temp){
+function buildWC(speed, t);){
     let feelTemp = document.getElementById('chill');
 
     //compute
@@ -12,5 +12,5 @@ function buildWC(speed,temp){
     //if windchill is greater than temp return windchill
     wc = (wc > temp) ? temp:wc;
     console.log(wc);
-    feelTemp.innerHTML = wc;
+    feelTemp.innerText = wc;
 }
