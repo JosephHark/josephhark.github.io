@@ -341,7 +341,7 @@ footer a {
         padding-bottom: 2em;
     }
 
-    table tr td {
+    #weather_table, #windchill{
         height: 1.5em;
         color: #FBFBFA;
     }
