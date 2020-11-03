@@ -8,5 +8,5 @@ slider.oninput = function() {
 
 function formSubmit() {
     document.forms["myForm"].submit();
-    location.replace("https://www.w3schools.com")
+    location.replace("https://josephhark.github.io/Lesson%208/thanks.html")
 }
