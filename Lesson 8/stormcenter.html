@@ -54,20 +54,20 @@
                 <option value="Select-Region" disabled>"Select Region ..."</option>
                 <option value="Preston">Preston</option>
                 <option value="Idaho-Falls">Idaho Falls</option>
-                <option value="Soda-Springs">Sode Springs</option>
+                <option value="Soda-Springs">Soda Springs</option>
             </select><br>
 
             <label for="in-danger">Are you in danger?</label>
-            
-                <input type="radio" id="yes" name="in-danger" value="yes" checked>
+            <div id="in-danger">
+                <input type="radio" id="yes" name="help" value="yes" checked>
                 <label for="yes">Yes</label>
 
-                <input type="radio" id="maybe" name="in-danger" value="maybe">
+                <input type="radio" id="maybe" name="help" value="maybe">
                 <label for="maybe">Maybe</label>
 
-                <input type="radio" id="no" name="in-danger" value="no">
+                <input type="radio" id="no" name="help" value="no">
                 <label for="no">No</label><br>
-            
+            </div>
 
             <label for="moreInfo">Tell us below if there is more information that you think we should know:</label><br>
             <textarea id="moreInfo" name="story" rows="5" cols="33"></textarea><br>
