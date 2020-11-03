@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Storm Center for weather website assignement, Joseph Hark, WDD 230: Web Frontend Development, Brigham Young University Idaho">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Storm Center</title>
+</head>
+
+<body>
+    <h2>Watching for Storms</h2>
+    <main>
+        <form name="myForm" action="/action_page.php" method="get">
+
+            <label for="fname">Enter First name:</label><br>
+            <input type="text" id="fname" required minlength="5" maxlength="20" size="20"><br>
+
+            <label for="email">Enter your email:</label><br>
+            <input type="email" id="email" placeholder="stormjunkie@globex.com" size="30" required><br>
+
+            <label for="phone">Enter your phone number:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+            <small>Format: 123-456-7890</small><br>
+
+            <label for="zip">Enter your Zip code:</label><br>
+            <input type="text" id="zip" name="zip" required minlength="5" maxlength="9" size="10"><br>
+
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="storm-date" min="2018-01-01" max="2021-12-31"><br>
+
+            <label for="stormType">What kind of Storm?:</label><br>
+            <input list="storm-kinds" id="stormType" name="kinds-of-storm" />
+
+            <datalist id="storm-kinds">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+                <option value="Blizzard">
+            </datalist><br>
+
+            <label for="rating">Storm Rating</label><br>
+            <input type="range" id="rating" name="rating" min="0" max="10">
+            <p>Rating: <span id="demo"></span></p><br>
+
+            <label for="area">Select a Region:</label><br>
+            <select name="region" id="area">
+                <option value=Select-Region" disabled>"Select Region ..."</option>
+                <option value="Preston">Preston</option>
+                <option value="Idaho-Falls">Idaho Falls</option>
+                <option value="Soda-Springs">Sode Springs</option>
+            </select><br>
+
+            <label for="in-danger">Are you in danger?</label>
+            <div id="in-danger">
+                <input type="radio" id="yes" name="in-danger" value="yes" checked>
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="maybe" name="in-danger" value="maybe">
+                <label for="maybe">Maybe</label>
+
+                <input type="radio" id="no" name="in-danger" value="maybe">
+                <label for="no">No</label>
+            </div>
+
+            <label for="moreInfo">Tell us below if there is more information that you think we should know:</label><br>
+            <textarea id="moreInfo" name="story" rows="5" cols="33"></textarea><br>
+
+            <label for="send">Send in the storm information:</label><br>
+            <input type="button" onclick="formSubmit()" id="send" value="Send storm data">
+        </form>
+    </main>
+
+    <footer>
+        <script src="town8.js"></script>
+        <script src="submit.js"></script>
+        <p>&copy; 2020 | Joseph Hark | Connecticut, USA | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
