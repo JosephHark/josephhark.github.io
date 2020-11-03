@@ -1,36 +1,75 @@
-table{
-    margin: 3px;
-    padding: 3px;
-    font-family: Ubuntu, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+
+body,
+html {
+    margin: 0;
+    padding: 0;
 }
-th, td {
-    border: 1px solid black;
-  }
-  tr:nth-child(1){
-      font-size: larger;
-      background-color: #7fb9c2;
-  }
-  tr:nth-child(5){
+
+table {
+    width: 30vw;
+    max-width: 800px;
+    margin: 2em auto;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    font-size: 1.5em;
+    border-spacing: 0;
+}
+
+tr th {
+    font-family: Ubuntu, san-serif;
+    border-spacing: 0;
+    border: 1px solid #ccc;
+    padding: 0.5em;
+}
+
+
+tr:nth-child(1) {
+    font-size: 32px;
+    background-color: #7fb9c2;
+    color: black;
+}
+
+tr:nth-child(2) {
+    font-size: larger;
+    color: white;
+}
+
+tr:nth-child(7) {
     font-style: italic;
-  }
- .friday{
+}
+
+.friday {
     text-align: center;
     font-style: normal;
- }
- tr:nth-child(9){
-     font-size: smaller;
-     text-align: center;
-     background-color: #7fb9c2;
- }
- tr:nth-child(6) td:nth-child(3){
-     background-color: #628ca6;
- }
- tr:nth-child(2){
-    background-color: #628ca6; 
 }
-tr:nth-child(3), tr:nth-child(5), tr:nth-child(7){
+
+tr:nth-child(9) {
+    font-size: smaller;
+    text-align: center;
+    background-color: #7fb9c2;
+}
+
+tr:nth-child(6) td:nth-child(3) {
+    background-color: #628ca6;
+    color: white;
+}
+
+tr:nth-child(2) {
+    background-color: #628ca6;
+}
+
+tr:nth-child(3),
+tr:nth-child(5),
+tr:nth-child(7) {
     background-color: #e7f0ed;
 }
-tr:nth-child(4), tr:nth-child(6), tr:nth-child(8){
-    background-color: #e7ffed ;
+
+tr:nth-child(4),
+tr:nth-child(6),
+tr:nth-child(8) {
+    background-color: #e7ffed;
 }
