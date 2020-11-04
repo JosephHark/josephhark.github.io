@@ -39,8 +39,9 @@
     <h1>StormWatch</h1>
     <main>
         <form name="myForm" action="/action_page.php" method="get">
-            <div id="contact">
-                <label for="contact"> Contact Information:<br>
+            <fieldset id="contact">
+                <h3><label for="contact"> Contact Information:<br></h3>
+                
                     <label for="fname">Enter First name:</label><br>
                     <input type="text" id="fname" required minlength="5" maxlength="20" size="20"><br>
 
@@ -54,9 +55,10 @@
                     <label for="zip">Enter your Zip code:</label><br>
                     <input type="text" id="zip" name="zip" required minlength="5" maxlength="9" size="10"><br>
                 </label><br>
-            </div>
-            <div id="storminfo">
-                <label for="storminfo">Storm Information:<br>
+            </fieldset>
+            <fieldset id="storminfo">
+                <h3><label for="storminfo">Storm Information:<br></h3>
+                
 
                     <label for="date">Date:</label><br>
                     <input type="date" id="date" name="storm-date" min="2018-01-01" max="2021-12-31"><br>
@@ -97,11 +99,10 @@
                         <label for="no">No</label><br>
                     </div>
                 </label>
-            </div>
+            </fieldset>
             <label for="moreInfo">Tell us below if there is more information that you think we should know:</label><br>
             <textarea id="moreInfo" name="story" rows="5" cols="33"></textarea><br>
 
-            <label for="send">Send in the storm information:</label><br>
             <input type="button" onclick="formSubmit()" id="send" value="Send storm data">
         </form>
     </main>
