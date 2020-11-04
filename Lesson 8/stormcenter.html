@@ -16,59 +16,65 @@
     <h2>Watching for Storms</h2>
     <main>
         <form name="myForm" action="/action_page.php" method="get">
+            <div id="contact">
+                <label for="contact"> Contact Information:<br>
+                    <label for="fname">Enter First name:</label><br>
+                    <input type="text" id="fname" required minlength="5" maxlength="20" size="20"><br>
 
-            <label for="fname">Enter First name:</label><br>
-            <input type="text" id="fname" required minlength="5" maxlength="20" size="20"><br>
+                    <label for="email">Enter your email:</label><br>
+                    <input type="email" id="email" placeholder="stormjunkie@globex.com" size="30" required><br>
 
-            <label for="email">Enter your email:</label><br>
-            <input type="email" id="email" placeholder="stormjunkie@globex.com" size="30" required><br>
+                    <label for="phone">Enter your phone number:</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+                    <small>Format: 123-456-7890</small><br>
 
-            <label for="phone">Enter your phone number:</label><br>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
-            <small>Format: 123-456-7890</small><br>
-
-            <label for="zip">Enter your Zip code:</label><br>
-            <input type="text" id="zip" name="zip" required minlength="5" maxlength="9" size="10"><br>
-
-            <label for="date">Date:</label><br>
-            <input type="date" id="date" name="storm-date" min="2018-01-01" max="2021-12-31"><br>
-
-            <label for="stormType">What kind of Storm?:</label><br>
-            <input list="storm-kinds" id="stormType" name="kinds-of-storm" />
-
-            <datalist id="storm-kinds">
-                <option value="Flash Flood">
-                <option value="Hail">
-                <option value="Hurricane">
-                <option value="Thunderstorm">
-                <option value="Tornado">
-                <option value="Blizzard">
-            </datalist><br>
-
-            <label for="rating">Storm Rating</label><br>
-            <input type="range" id="rating" name="rating" min="0" max="10">
-            <p>Rating: <span id="demo"></span></p><br>
-
-            <label for="area">Select a Region:</label><br>
-            <select name="region" id="area">
-                <option value="Select-Region" disabled>"Select Region ..."</option>
-                <option value="Preston">Preston</option>
-                <option value="Idaho-Falls">Idaho Falls</option>
-                <option value="Soda-Springs">Soda Springs</option>
-            </select><br>
-
-            <label for="in-danger">Are you in danger?</label>
-            <div id="in-danger">
-                <input type="radio" id="yes" name="help" value="yes" checked>
-                <label for="yes">Yes</label>
-
-                <input type="radio" id="maybe" name="help" value="maybe">
-                <label for="maybe">Maybe</label>
-
-                <input type="radio" id="no" name="help" value="no">
-                <label for="no">No</label><br>
+                    <label for="zip">Enter your Zip code:</label><br>
+                    <input type="text" id="zip" name="zip" required minlength="5" maxlength="9" size="10"><br>
+                </label><br>
             </div>
+            <div id="storminfo">
+                <label for="storminfo">Storm Information:<br>
 
+                    <label for="date">Date:</label><br>
+                    <input type="date" id="date" name="storm-date" min="2018-01-01" max="2021-12-31"><br>
+
+                    <label for="stormType">What kind of Storm?:</label><br>
+                    <input list="storm-kinds" id="stormType" name="kinds-of-storm" />
+
+                    <datalist id="storm-kinds">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                        <option value="Blizzard">
+                    </datalist><br>
+
+                    <label for="rating">Storm Rating</label><br>
+                    <input type="range" id="rating" name="rating" min="0" max="10">
+                    <p>Rating: <span id="demo"></span></p><br>
+
+                    <label for="area">Select a Region:</label><br>
+                    <select name="region" id="area">
+                        <option value="Select-Region" disabled>"Select Region ..."</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Idaho-Falls">Idaho Falls</option>
+                        <option value="Soda-Springs">Soda Springs</option>
+                    </select><br>
+
+                    <label for="in-danger">Are you in danger?</label>
+                    <div id="in-danger">
+                        <input type="radio" id="yes" name="help" value="yes" checked>
+                        <label for="yes">Yes</label>
+
+                        <input type="radio" id="maybe" name="help" value="maybe">
+                        <label for="maybe">Maybe</label>
+
+                        <input type="radio" id="no" name="help" value="no">
+                        <label for="no">No</label><br>
+                    </div>
+                </label>
+            </div>
             <label for="moreInfo">Tell us below if there is more information that you think we should know:</label><br>
             <textarea id="moreInfo" name="story" rows="5" cols="33"></textarea><br>
 
