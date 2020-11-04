@@ -78,6 +78,20 @@ nav {
     font-family: "Epilogue";
     color: #22223b;
 }
+.message {
+    display: none;
+    padding: 1em;
+    border: 1px solid #444444;
+    background-color: #43707c;
+    color: #ffffff;
+}
+
+.message p {
+    max-width: 960px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin: 0 auto;
+}
 
 /*Tablet veiw*/
 @media only screen and (min-width: 500px) {
@@ -106,3 +120,4 @@ nav {
         font-family: "Epilogue";
         color: #22223b;
     }
+}
