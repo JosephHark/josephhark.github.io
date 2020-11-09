@@ -14,7 +14,7 @@ fetch(requestURL)
 
             h2.textContent = towns[i].name;
             h4.textContent = towns[i].motto;
-            img.textContent = towns[i].photo;
+            img.setAttribute('src', towns[i].photo);
             p.textContent = towns[i].yearFounded;
             p.textContent = towns[i].currentPopulation;
             p.textContent = towns[i].averageRainfall;
