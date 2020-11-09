@@ -235,6 +235,21 @@ footer a {
     width: 100%;
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.cards p {
+    padding: .75rem;
+}
+
 /*Tablet veiw*/
 @media only screen and (min-width: 500px) {
     .navigation {
@@ -389,6 +404,15 @@ footer a {
         display: flex;
         flex-direction: row;
     }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cards:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
 }
 
 /* Computer viewports */
@@ -447,4 +471,8 @@ footer a {
         display: block;
     }
 
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
