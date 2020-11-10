@@ -1,4 +1,4 @@
-<script>
+
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 fetch(requestURL)
 .then(function (response) {
@@ -31,4 +31,3 @@ document.querySelector('div.cards').appendChild(card);
 } // temporary checking for valid response and data parsing
 });
 const towns = jsonObject['towns'];
-</script>
