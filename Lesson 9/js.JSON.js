@@ -6,7 +6,7 @@ return response.json();
 })
 .then(function (jsonObject) {
 console.table(jsonObject);
-for (let i = 0; i < towns.length; i++) {
+for (let i = 0; i < 4; i++) {
 let card = document.createElement('section');
 let h2 = document.createElement('h2');
 let h4 = document.createElement('h4');

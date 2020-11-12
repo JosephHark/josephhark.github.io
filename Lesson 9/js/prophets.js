@@ -5,6 +5,7 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
+        const prophets = jsonObject['prophets'];
         for (let i = 0; i < prophets.length; i++) {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
@@ -23,7 +24,7 @@ fetch(requestURL)
             card.appendChild(p);
 
 
-            document.querySelector('div.cards').appendChild(card);
+            document.querySelector('.cards').appendChild(card);
         } // temporary checking for valid response and data parsing
     });
-const prophets = jsonObject['prophets'];
+
