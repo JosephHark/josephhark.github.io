@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Weather website for Joseph Hark in WDD 230: Web Frontend Development at Brigham Young University - Idaho" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/town.css" />
+    <script src="town.js"></script>
+    <script src="responsive.js"></script>
+    <script src="js/picnic.js"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>StormGuard</title>
+</head>
+
+<body>
+    <div id="town">
+
+        <div class="message">
+            <p id="banner">Saturday is Preston Pancakes in the Park! 9:00 a.m. at the city park pavilion.</p>
+        </div>
+        <header>
+            <img class="logo"
+                src="https://user-images.githubusercontent.com/71291466/95082336-e63f0080-06e8-11eb-9001-30ea0d6288ed.png"
+                alt="Logo of StormGuard" />
+            <section class="headings">
+                <h1 class="home-page-title">StormGuard</h1>
+                <h4 class="m">Giving accurate weather forecast so you can make the most of your day.</h4>
+            </section>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a href="https://josephhark.github.io/Lesson%209/homePage.html">Home Page</a></li>
+                <li><a href="https://josephhark.github.io/lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Franklin</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="https://josephhark.github.io/Lesson%208/stormcenter.html">Storm Watch</a></li>
+                <li><a href="https://josephhark.github.io/Lesson%207/gallery-7.html">Gallery</a></li>
+            </ul>
+            <main>
+                <h2>
+                    Preston, Idaho
+                </h2>
+                <div id="hero-box">
+                    <img src="https://user-images.githubusercontent.com/71291466/96742939-7049c300-1391-11eb-88aa-45dfa92a7131.jpeg"
+                        alt="Lake before mountian in Idaho." />
+                    <h3 class="overlay-small">Small</h3>
+                    <h3 class="overlay-med">Medium</h3>
+                    <h3 class="overlay-lg">Large</h3>
+                    <section id="weatherSum">
+                        <h3 id="wsheader">Weather Summary</h3>
+                        <table>
+                            <tbody id="weather_table">
+                                <tr>
+
+                                    <td>Currently</td>
+                                    <td>Sunny</td>
+
+                                </tr>
+                                <tr>
+                                    <td>High</td>
+                                    <td id="temp">69&#xb0;F</td>
+                                </tr>
+                                <tr>
+                                    <td>Low</td>
+                                    <td>59&#xb0;F</td>
+                                </tr>
+                                <tr>
+                                    <td>Precipitation Chance</td>
+                                    <td>12%</td>
+                                </tr>
+                                <tr>
+
+                                    <td>Wind Speed</td>
+                                    <td class="speed">15mph</td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="windchill">
+                                            Feels like: <span id="chill"></span>
+                                            <script src="js/windchill.js"></script>
+                                        </div>
+                                    </td>
+                                    <script src="js/weatherapi.js"></script>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+                <h2>Five-Day Forecast</h2>
+                <div class="flex">
+                    <div class="flex-col">
+                        <span class="col-head">Monday</span>
+                        <img src="https://user-images.githubusercontent.com/71291466/96172245-1f028500-0ef4-11eb-8fab-68d088344f05.png"
+                            alt="Sunny">
+                        <span class="data">High:69&#xb0;F</span>
+                    </div>
+                    <div class="flex-col">
+                        <span class="col-head">Tuesday</span>
+                        <img src="https://user-images.githubusercontent.com/71291466/96172458-7b65a480-0ef4-11eb-83f2-c1cd1fece273.png"
+                            alt="Rain">
+                        <span class="data">High:66&#xb0;F</span>
+                    </div>
+                    <div class="flex-col">
+                        <span class="col-head">Wednesday</span>
+                        <img src="https://user-images.githubusercontent.com/71291466/96172414-68eb6b00-0ef4-11eb-8c8a-7a78d2ff478c.png"
+                            alt="windy">
+                        <span class="data">High:73&#xb0;F</span>
+                    </div>
+                    <div class="flex-col">
+                        <span class="col-head">Thursday</span>
+                        <img src="https://user-images.githubusercontent.com/71291466/96172245-1f028500-0ef4-11eb-8fab-68d088344f05.png"
+                            alt="Sunny">
+                        <span class="data">High:74&#xb0;F</span>
+                    </div>
+                    <div class="flex-col">
+                        <span class="col-head">Friday</span>
+                        <img src="https://user-images.githubusercontent.com/71291466/96172245-1f028500-0ef4-11eb-8fab-68d088344f05.png"
+                            alt="Sunny">
+                        <span class="data">High:71&#xb0;F</span>
+                    </div>
+                </div>
+                <div id="article">
+                    <h3 class=>
+                        Article
+                    </h3>
+                    <img src="https://user-images.githubusercontent.com/71291466/96183603-19fa0180-0f05-11eb-8143-f7d3e776b3aa.jpg"
+                        alt="woman smiling as leaves fall around her" />
+                    <p class="home-para-two">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, atque? Eveniet in voluptatum
+                        blanditiis
+                        numquam molestiae, voluptate ullam quidem eos, veniam, rerum atque. Quisquam cumque architecto
+                        quas
+                        omnis molestias labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, atque?
+                        Eveniet in voluptatum blanditiis
+                        numquam molestiae, voluptate ullam quidem eos, veniam, rerum atque. Quisquam cumque architecto
+                        quas
+                        omnis molestias labore.
+                    </p>
+                </div>
+                <div id="contact-grid">
+                    <h3>
+                        Contact Information
+                    </h3>
+                    <p>
+                        &phone; (888)888-8888.
+                        &#128231; Sguard@gmail.com
+                    </p>
+                </div>
+            </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+<footer>
+    <p>&copy;2020 StormGuard| Today's Date: <span id="currentDate"></span> | Joseph Hark <br>
+        Connecticut, USA | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+</footer>
+
+</html>
