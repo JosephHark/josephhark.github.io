@@ -34,7 +34,7 @@
             <ul class="navigation">
                 <li><a class="ham" href="#">&#9776; Menu</a></li>
                 <li><a href="https://josephhark.github.io/Lesson%209/homePage.html">Home Page</a></li>
-                <li><a href="https://josephhark.github.io/lesson6/preston-6.html">Preston</a></li>
+                <li><a href="https://josephhark.github.io/Lesson%2010/preston-10.html">Preston</a></li>
                 <li><a href="#">Franklin</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="https://josephhark.github.io/Lesson%208/stormcenter.html">Storm Watch</a></li>
@@ -52,32 +52,30 @@
                     <h3 class="overlay-lg">Large</h3>
                     <section id="weatherSum">
                         <h3 id="wsheader">Weather Summary</h3>
+                        <script src="js/weatherApiTown.js"></script>
                         <table>
                             <tbody id="weather_table">
                                 <tr>
-
                                     <td>Currently</td>
-                                    <td>Sunny</td>
-
+                                    <td id="Currently"></td>
                                 </tr>
+
                                 <tr>
                                     <td>High</td>
-                                    <td id="temp">69&#xb0;F</td>
+                                    <td id="current-temp"></td>
                                 </tr>
+
                                 <tr>
-                                    <td>Low</td>
-                                    <td>59&#xb0;F</td>
+                                    <td>Humidity</td>
+                                    <td id="Humidity"></td>
                                 </tr>
-                                <tr>
-                                    <td>Precipitation Chance</td>
-                                    <td>12%</td>
-                                </tr>
+
                                 <tr>
 
                                     <td>Wind Speed</td>
-                                    <td class="speed">15mph</td>
-
+                                    <td id="speed"></td>
                                 </tr>
+
                                 <tr>
                                     <td>
                                         <div id="windchill">
@@ -94,40 +92,36 @@
                 <h2>Five-Day Forecast</h2>
                 <div class="flex">
                     <div class="flex-col">
-                        <span class="col-head">Monday</span>
-                        <img src="https://user-images.githubusercontent.com/71291466/96172245-1f028500-0ef4-11eb-8fab-68d088344f05.png"
-                            alt="Sunny">
-                        <span class="data">High:69&#xb0;F</span>
+                        <span class="col-head"> Tomorrow's Date: <span id="tomorrowDate"></span></span>
+                        <img src="" alt="">
+                        <span class="data"></span>
+                        <script src="js/forecastD1.js"></script>
                     </div>
                     <div class="flex-col">
-                        <span class="col-head">Tuesday</span>
-                        <img src="https://user-images.githubusercontent.com/71291466/96172458-7b65a480-0ef4-11eb-83f2-c1cd1fece273.png"
-                            alt="Rain">
-                        <span class="data">High:66&#xb0;F</span>
+                        <span class="col-head">Day Two</span>
+                        <img src="" alt="">
+                        <span class="data"></span>
                     </div>
                     <div class="flex-col">
-                        <span class="col-head">Wednesday</span>
-                        <img src="https://user-images.githubusercontent.com/71291466/96172414-68eb6b00-0ef4-11eb-8c8a-7a78d2ff478c.png"
-                            alt="windy">
-                        <span class="data">High:73&#xb0;F</span>
+                        <span class="col-head">Day Three</span>
+                        <img src="" alt="">
+                        <span class="data"></span>
                     </div>
                     <div class="flex-col">
-                        <span class="col-head">Thursday</span>
-                        <img src="https://user-images.githubusercontent.com/71291466/96172245-1f028500-0ef4-11eb-8fab-68d088344f05.png"
-                            alt="Sunny">
-                        <span class="data">High:74&#xb0;F</span>
+                        <span class="col-head">Day Four</span>
+                        <img src="" alt="">
+                        <span class="data"></span>
                     </div>
                     <div class="flex-col">
-                        <span class="col-head">Friday</span>
-                        <img src="https://user-images.githubusercontent.com/71291466/96172245-1f028500-0ef4-11eb-8fab-68d088344f05.png"
-                            alt="Sunny">
-                        <span class="data">High:71&#xb0;F</span>
+                        <span class="col-head">Day Five</span>
+                        <img src="" alt="">
+                        <span class="data"></span>
                     </div>
                 </div>
                 <div id="article">
-                    <h3 class=>
+                    <h2 class=>
                         Article
-                    </h3>
+                    </h2>
                     <img src="https://user-images.githubusercontent.com/71291466/96183603-19fa0180-0f05-11eb-8143-f7d3e776b3aa.jpg"
                         alt="woman smiling as leaves fall around her" />
                     <p class="home-para-two">
@@ -142,14 +136,10 @@
                         omnis molestias labore.
                     </p>
                 </div>
-                <div id="contact-grid">
-                    <h3>
-                        Contact Information
-                    </h3>
-                    <p>
-                        &phone; (888)888-8888.
-                        &#128231; Sguard@gmail.com
-                    </p>
+                <div class="contact-information">
+                    <h2>Contact Information</h2>
+                    <p><a href="#">&#128231; StormGuard</a></p>
+                    <p><a href="#"> &#128241; 120 457-4894 </a></p>
                 </div>
             </main>
     </div>
