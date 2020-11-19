@@ -28,9 +28,6 @@ function getSummary() {
     if (temp <= 50 && wind > 3.0) {
         windchill = buildWC(temp, wind);
     }
-
-    document.getElementById('temp').innerHTML = ` ${temp}&#8457`
-    document.getElementById('speed').innerHTML = ` ${wind} MPH`
     document.getElementById('windchill').innerHTML = `${windchill}&#8457`
 }
 getSummary();
