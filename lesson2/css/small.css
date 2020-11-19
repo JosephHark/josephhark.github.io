@@ -61,6 +61,37 @@
         color: #01161e;
     }
 
+    header,
+footer {
+    padding: 0em 2em;
+    background-color:#658E9C ;
+    color:#CACF85 ;
+}
+
+header {
+    max-height: 10em;
+    width: auto;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+footer {
+    margin: 0em;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+
+footer a:hover {
+    color: white;
+}
+
 
 /*tablet veiw
 */

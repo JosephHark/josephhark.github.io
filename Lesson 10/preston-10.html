@@ -52,41 +52,39 @@
                     <h3 class="overlay-lg">Large</h3>
                     <section id="weatherSum">
                         <h3 id="wsheader">Weather Summary</h3>
-                        <script src="js/weatherApiTown.js"></script>
                         <table>
                             <tbody id="weather_table">
                                 <tr>
-                                    <td>Currently</td>
-                                    <td id="Currently"></td>
-                                </tr>
 
+                                    <td>Currently</td>
+                                    <td>Sunny</td>
+
+                                </tr>
                                 <tr>
                                     <td>High</td>
-                                    <td id="current-temp"></td>
+                                    <td id="temp">&#xb0;F</td>
                                 </tr>
-
                                 <tr>
-                                    <td>Humidity</td>
-                                    <td id="Humidity"></td>
+                                    <td>Low</td>
+                                    <td>&#xb0;F</td>
                                 </tr>
-
+                                <tr>
+                                    <td>Precipitation Chance</td>
+                                    <td id="precip"></td>
+                                </tr>
                                 <tr>
 
                                     <td>Wind Speed</td>
                                     <td id="speed"></td>
-                                </tr>
 
+                                </tr>
                                 <tr>
-                                    <td>
-                                        <div id="windchill">
-                                            Feels like: <span id="chill"></span>
-                                            <script src="js/windchill.js"></script>
-                                        </div>
-                                    </td>
-                                    <script src="js/weatherapi.js"></script>
+                                    <td>Feels like</td>
+                                    <td id="windchill">&#xb0;F</td>
                                 </tr>
                             </tbody>
                         </table>
+                        <script src="js/summary.js"></script>
                     </section>
                 </div>
                 <h2>Five-Day Forecast</h2>
@@ -145,10 +143,10 @@
             </main>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <footer>
+        <p>&copy;2020 StormGuard| Today's Date: <span id="currentDate"></span> | Joseph Hark <br>
+            Connecticut, USA | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+    </footer>
 </body>
-<footer>
-    <p>&copy;2020 StormGuard| Today's Date: <span id="currentDate"></span> | Joseph Hark <br>
-        Connecticut, USA | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-</footer>
 
 </html>
