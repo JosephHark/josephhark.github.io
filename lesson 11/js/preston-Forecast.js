@@ -23,3 +23,4 @@ fetch(apiURL)
             day++;
         })
     });
+    

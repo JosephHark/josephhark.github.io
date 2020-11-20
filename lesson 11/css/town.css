@@ -513,6 +513,12 @@ footer a {
         padding: 8px;
         margin-left: 15px;
       }
+      #hero-box img {
+        max-width: 100%;
+        margin: 10px;
+        padding: 8px;
+        margin-left: 15px;
+      }
     
       .hero-text {
         grid-column: 2/3;
