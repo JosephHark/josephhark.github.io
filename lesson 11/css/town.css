@@ -35,14 +35,11 @@ header img {
     font-size: .9rem;
 }
 
-nav {
-    background-color: #7df9ff;
-    margin: 0 auto;
-}
-
 .navigation {
     list-style: none;
     padding: 0;
+    background-color: #7df9ff;
+    margin: 0 auto;
 }
 
 .navigation li:first-child {
@@ -91,7 +88,6 @@ nav {
     display: none;
 }
 .message {
-    display: none;
     padding: 1em;
     border: 1px solid #444444;
     background-color: #43707c;
@@ -181,8 +177,6 @@ footer a {
 
 .flex {
     display: flex;
-    /* flex-direction: row; */
-    /* let us combine row and wrap with flow */
     flex-flow: row wrap;
 }
 
@@ -240,34 +234,38 @@ footer a {
 #contact-grid img {
     width: 100%;
 }
-
-.cards {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.preston-img, .fish-haven-img, .soda-springs-img{
-    width: 100%;
-    height: auto;
-    padding: 0;
-}
-
-.cards p {
-    padding: .75rem;
-}
 .towns{
-    background-color: #2364aaff;
+    background-color: #0275f4;
   }
   
-  .cards-text{
+  .towns section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.493);
+    border: .25em solid #ffffff;
+    align-items: center;
+    transition: .5s;
+  }
+  
+  .towns section:hover{
+    background-color: transparent;
+  }
+  
+  .towns section a{
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+  }
+  
+  .town-text{
     text-align: center;
     width: 100%;
   }
-  .cards img{
+  
+  .towns img{
     max-width: 400px;
     margin: 0 auto;
   }
-  
 
 /*Tablet veiw*/
 @media only screen and (min-width: 500px) {
@@ -491,7 +489,7 @@ footer a {
         display: block;
     }
 
-    .cards {
+    .towns {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }

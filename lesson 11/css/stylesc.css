@@ -1,0 +1,209 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #5db7de;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #354F52;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+
+.m {
+    letter-spacing: 1pt;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    background-color: #7df9ff;
+    margin: 0 auto;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.responsive li {
+    display: block;
+}
+
+.navigation ul li a:hover {
+    color: black;
+    background-color: #747880;
+}
+
+nav {
+    font-size: 16px;
+    font-family: "Epilogue";
+    color: #22223b;
+}
+
+.message {
+    display: none;
+    padding: 1em;
+    border: 1px solid #444444;
+    background-color: #43707c;
+    color: #ffffff;
+}
+
+.message p {
+    max-width: 960px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin: 0 auto;
+}
+
+form {
+    margin: .5em;
+    width: auto;
+}
+
+form fieldset {
+    border-color: #747880;
+    border-radius: 15px;
+    margin: 1em 0;
+    padding: 1.25em 0;
+}
+
+form legend {
+    margin-left: 1.5em;
+    font-weight: 800;
+    font-family: 'Merriweather Sans', Calibri, sans-serif;
+}
+
+form label,
+form div {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: .5em;
+    width: 88%;
+}
+
+form textarea {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+form input {
+    width: 100%;
+
+}
+
+
+/* Thank you page */
+#thanks h1 {
+    padding: 0;
+}
+
+/*Tablet veiw*/
+@media only screen and (min-width: 500px) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation {
+        font-size: 20px;
+        font-family: "Epilogue";
+        color: #22223b;
+    }
+
+    form {
+        max-width: 30em;
+    }
+
+    form fieldset {
+        border-color: #747880;
+        border-radius: 15px;
+        margin: 1em 0;
+        padding: 1.25em 0;
+    }
+
+    form legend {
+        margin-left: 1.5em;
+        font-weight: 800;
+        font-family: 'Merriweather Sans', Calibri, sans-serif;
+    }
+
+    form label,
+    form div {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: .5em;
+        width: 88%;
+    }
+
+    form textarea {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+    form input {
+        width: 90%;
+    }
+    form button{
+        width: 90%;
+    }
+
+    /* Thank you page */
+    #thanks h1 {
+        padding: 0;
+    }
+}
