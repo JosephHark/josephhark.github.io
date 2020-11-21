@@ -1,5 +1,5 @@
-const apiURL = "api.openweathermap.org/data/2.5/weather?id=5604473&appid=b013253f6ae81d23487f1707c26a01fd&units=imperial";
-fetch(apiURL)
+const prestonapiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a21b3a033736d7d3908ca1bc674e2551&units=imperial"
+fetch(prestonapiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
@@ -29,7 +29,7 @@ function buildWC(t, speed) {
     return wc;
 }
 
-function getSummary() {
+function getSummary(curtemp, speed) {
     let temp = curtemp;
     let wind = speed;
     let windchill = "N/A"

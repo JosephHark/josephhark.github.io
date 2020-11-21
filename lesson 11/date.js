@@ -25,4 +25,4 @@ let dayname = week[d.getDay()];
 let month = monthNames[d.getMonth()];
 let year = d.getFullYear();
 let fulldate = dayname + " , " + month + " " + d.getDate() + " , " + year;
-document.getElementById("currentDate").textContent = fulldate;
+document.getElementById("currentDate").innerHTML = fulldate;
