@@ -1,24 +1,17 @@
-const prestonforecast = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a21b3a033736d7d3908ca1bc674e2551&units=imperial"
-fetch(prestonforecast)
+const pforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=a21b3a033736d7d3908ca1bc674e2551"
+fetch(pforecast)
     .then((response) => response.json())
-    .then((jsObject) => {
-
+    .then((jsObject) =>{
         const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
         let day = 0;
-        let weekdays = ["Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-    ];
-        forecast.forEach(x => {
-            const d = new Date(x.dt_txt);
-            document.getElementById('dayofweek${day+1}').textContent = weekdays[d.getDay()];
-            document.getElementById('max${day+1}').innerHTML = x.main.temp_max;
-            document.getElementById('min${day+1}').innerHTML = x.main.temp_min;
+        const weekdays= ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat']
+        forecast.forEach(x=> {
+            let d= new Date(x.dt_txt);
+            let dayofweek = weekdays[d.getDay()];
+            document.getElementById("dates${days+1}").textContent = dayofweek;
+            let high = jsObject.main.temp_max;
+            document.getElementById("forecast${days+1}").textContent = high;
             day++;
+            console.log(jsObject);
         })
-        console.log(forecast);
     });

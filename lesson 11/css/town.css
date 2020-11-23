@@ -355,33 +355,29 @@ footer a {
         display: none;
     }
 
-    #weatherSum {
+    .weatherSum {
         position: absolute;
         box-shadow: 0px 0px 25px #444444;
         top: 25px;
         left: 25px;
     }
 
-    #wsheader {
-        padding-top: .5em;
-        padding-left: 2em;
-        padding-right: 2em;
+    .wsheader {
+        padding: 1em;
+        margin: 0.5em;
         color: #FBFBFA;
         text-decoration: underline;
-        font-size: 18px;
+        font-size: 24px;
         font-family: "Epilogue";
     }
 
-    #weather_table {
-        width: 90%;
-        border: 1em;
+    .weather_table {
+        width: 100%;
         padding-bottom: 2em;
-    }
-
-    #weather_table,
-    #windchill {
         height: 1.5em;
         color: #FBFBFA;
+        background-color: #021ca4;
+        font-size: 18px;
     }
 
     td {

@@ -8,7 +8,6 @@
         content="Weather website for Joseph Hark in WDD 230: Web Frontend Development at Brigham Young University - Idaho" />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/town.css" />
-
     <link rel="shortcut icon" href="favicon.ico">
     <title>StormGuard</title>
 </head>
@@ -49,138 +48,156 @@
                 <h3 class="overlay-small">Small</h3>
                 <h3 class="overlay-med">Medium</h3>
                 <h3 class="overlay-lg">Large</h3>
-                <section id="weatherSum">
-                    <h3 id="wsheader">Weather Summary</h3>
-                    <div id="weather_table">
-                        <section>
-                            <h4>Currently:</h4>
-                            <p><span id="currently">Sunny jajaj</span></p>
-                            <h4>High:</h4>
-                            <p><span id="tempF">50jaja</span> &deg;F</p>
-                            <h4>Wind Chil:</h4>
-                            <p><span id="windchill"></span></p>
-                            <h4>Humudity</h4>
-                            <p><span id="humudity"></span>%</p>
-                            <h4>Wind Speed</h4>
-                            <p> <span id="speed">jaja</span> mph</p>
-                          </section>
+                <section class="weatherSum">
+                    <h3 class="wsheader">Weather Summary</h3>
+                    <table class="weather_table">
+                        <tbody>
+                            <tr>
+                                <td>Currently</td>
+                                <td><span id="currently"></span></td>
+                            </tr>
+                            <tr>
+
+                                <td>Current Temp</td>
+                                <td id="current-temp">&#xb0;F</td>
+
+                            </tr>
+                            <tr>
+                                <td>High</td>
+                                <td id="tempH">&#xb0;F</td>
+                            </tr>
+                            <tr>
+                                <td>Low</td>
+                                <td id="tempL">&#xb0;F</td>
+                            </tr>
+                            <tr>
+                                <td>Humidity</td>
+                                <td id="humidity"></td>
+                            </tr>
+                            <tr>
+
+                                <td>Wind Speed</td>
+                                <td id="speed"></td>
+
+                            </tr>
+                            <tr>
+                                <td>Feels like</td>
+                                <td id="windchill">&#xb0;F</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </section>
 
             </div>
-    
-    <h2>Five-Day Forecast</h2>
-    <div class="flex">
-        <div class="flex-col">
-            <div id="dayofweek-1" class="col-head"></div>
-            <img src="" alt="">
-            <div id="max-1" class="data"></div>
-            <div id="min-1" class="data"></div>
-        </div>
-        <div class="flex-col">
-            <div id="dayofweek-2" class="col-head"></div>
-            <img src="" alt="">
-            <div id="max-2" class="data"></div>
-            <div id="min-2" class="data"></div>
-        </div>
-        <div class="flex-col">
-            <div id="dayofweek-3" class="col-head"></div>
-            <img src="" alt="">
-            <div id="max-3" class="data"></div>
-            <div id="min-3" class="data"></div>
-        </div>
-        <div class="flex-col">
-            <div id="dayofweek-4" class="col-head"></div>
-            <img src="" alt="">
-            <div id="max-4" class="data"></div>
-            <div id="min-4" class="data"></div>
-        </div>
-        <div class="flex-col">
-            <div id="dayofweek-5" class="col-head"></div>
-            <img src="" alt="">
-            <div id="max-5" class="data"></div>
-            <div id="min-5" class="data"></div>
-        </div>
-    </div>
 
-    <div class="article">
-        <div class="article-para-head">
-            <h2>Practice Safe Thanksgiving Tips!</h2>
-        </div>
-        <img class="article-img"
-            src="https://user-images.githubusercontent.com/71291466/99861266-91a1f880-2b63-11eb-956f-482d8ee3bb72.jpg"
-            alt="woman smiling as leaves fall around her" />
-        <div class="article-para-1">
-            <h4>Due to the high number of reported cases of Covid, which is rising we have been asked to follow
-                the
-                following CDC suggestions for Thanksgiving. </h4>
-            <p><strong>Travel</strong>
-                Travel may increase your chance of getting and spreading COVID-19. Postponing travel and staying
-                home is the best way to protect yourself and others this year.
-                Check travel restrictions before you go.
-                Get your flu shot before you travel.
-                Always wear a mask in public settings, when using public transportation, and when around people
-                who you don’t live with.
-                Stay at least 6 feet apart from anyone who does not live with you.
-                Wash your hands often or use hand sanitizer.
-                Avoid touching your mask, eyes, nose, and mouth.
-                Bring extra supplies, such as masks and hand sanitizer.
-                Know when to delay your travel.
-            </p>
-            <p><strong>Wear a mask</strong>
-                Wear a mask with two or more layers to help protect yourself and others from COVID-19.
-                Wear the mask over your nose and mouth and secure it under your chin.
-                Make sure the mask fits snugly against the sides of your face.
-            </p>
-        </div>
-        <div class="article-para-2">
-            <p><strong>Stay at least 6 feet away from others who do not live with you</strong>
-                Remember that people without symptoms may be able to spread COVID-19 or flu.
-                Keeping 6 feet (about 2 arm lengths) from others is especially important for people who are at
-                higher risk of getting very sick.
-            </p>
-            <p><strong>Wash your hands</strong>
-                Wash hands often with soap and water for at least 20 seconds.
-                Keep hand sanitizer with you and use it when you are unable to wash your hands.
-                Use hand sanitizer with at least 60% alcohol.
-            </p>
-            <p><strong>Attending a Gathering</strong>
-                Celebrating virtually or with the people you live with is the safest choice this Thanksgiving.
-                Bring your own food, drinks, plates, cups, and utensils.
-                Wear a mask and safely store your mask while eating and drinking.
-                Avoid going in and out of the areas where food is being prepared or handled, such as in the
-                kitchen.
-                Use single-use options, like salad dressing and condiment packets, and disposable items like
-                food containers, plates, and utensils.
-            </p>
-            <p><strong>Consider Other Thanksgiving Activities</strong>
-                Schedule a time to share a meal together virtually.
-                Have people share recipes and show their turkey, dressing, or other dishes they prepared.
-                Watch Thanksgiving Day parades, sports, and movies at home.
-                Find a fun game to play.
-                Shop online sales the day after Thanksgiving and days leading up to the winter holidays.
-                Use contactless services for purchased items, like curbside pick-up.
-                Shop in open air markets staying 6 feet away from others and wear a mask.
-            </p>
-            <p>Read more at:
-                https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/holidays/thanksgiving.html
-            </p>
-        </div>
-    </div>
-    <div class="contact-information">
-        <h2>Contact Information</h2>
-        <p><a href="#">&#128231; StormGuard</a></p>
-        <p><a href="#"> &#128241; 120 457-4894 </a></p>
-    </div>
-    </main>
+            <div class="five-day">
+                <h2>5 Day Forecast</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td id="dates1"></td>
+                            <td id="forecast1"></td>
+                        </tr>
+                        <tr>
+                            <td id="dates2"></td>
+                            <td id="forecast2"></td>
+                        </tr>
+                        <tr>
+                            <td id="dates3"></td>
+                            <td id="forecast3"></td>
+                        </tr>
+                        <tr>
+                            <td id="dates4"></td>
+                            <td id="forecast4"></td>
+                        </tr>
+                        <tr>
+                            <td id="dates5"></td>
+                            <td id="forecast5"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="article">
+                <div class="article-para-head">
+                    <h2>Practice Safe Thanksgiving Tips!</h2>
+                </div>
+                <img class="article-img"
+                    src="https://user-images.githubusercontent.com/71291466/99861266-91a1f880-2b63-11eb-956f-482d8ee3bb72.jpg"
+                    alt="woman smiling as leaves fall around her" />
+                <div class="article-para-1">
+                    <h4>Due to the high number of reported cases of Covid, which is rising we have been asked to follow
+                        the
+                        following CDC suggestions for Thanksgiving. </h4>
+                    <p><strong>Travel</strong>
+                        Travel may increase your chance of getting and spreading COVID-19. Postponing travel and staying
+                        home is the best way to protect yourself and others this year.
+                        Check travel restrictions before you go.
+                        Get your flu shot before you travel.
+                        Always wear a mask in public settings, when using public transportation, and when around people
+                        who you don’t live with.
+                        Stay at least 6 feet apart from anyone who does not live with you.
+                        Wash your hands often or use hand sanitizer.
+                        Avoid touching your mask, eyes, nose, and mouth.
+                        Bring extra supplies, such as masks and hand sanitizer.
+                        Know when to delay your travel.
+                    </p>
+                    <p><strong>Wear a mask</strong>
+                        Wear a mask with two or more layers to help protect yourself and others from COVID-19.
+                        Wear the mask over your nose and mouth and secure it under your chin.
+                        Make sure the mask fits snugly against the sides of your face.
+                    </p>
+                </div>
+                <div class="article-para-2">
+                    <p><strong>Stay at least 6 feet away from others who do not live with you</strong>
+                        Remember that people without symptoms may be able to spread COVID-19 or flu.
+                        Keeping 6 feet (about 2 arm lengths) from others is especially important for people who are at
+                        higher risk of getting very sick.
+                    </p>
+                    <p><strong>Wash your hands</strong>
+                        Wash hands often with soap and water for at least 20 seconds.
+                        Keep hand sanitizer with you and use it when you are unable to wash your hands.
+                        Use hand sanitizer with at least 60% alcohol.
+                    </p>
+                    <p><strong>Attending a Gathering</strong>
+                        Celebrating virtually or with the people you live with is the safest choice this Thanksgiving.
+                        Bring your own food, drinks, plates, cups, and utensils.
+                        Wear a mask and safely store your mask while eating and drinking.
+                        Avoid going in and out of the areas where food is being prepared or handled, such as in the
+                        kitchen.
+                        Use single-use options, like salad dressing and condiment packets, and disposable items like
+                        food containers, plates, and utensils.
+                    </p>
+                    <p><strong>Consider Other Thanksgiving Activities</strong>
+                        Schedule a time to share a meal together virtually.
+                        Have people share recipes and show their turkey, dressing, or other dishes they prepared.
+                        Watch Thanksgiving Day parades, sports, and movies at home.
+                        Find a fun game to play.
+                        Shop online sales the day after Thanksgiving and days leading up to the winter holidays.
+                        Use contactless services for purchased items, like curbside pick-up.
+                        Shop in open air markets staying 6 feet away from others and wear a mask.
+                    </p>
+                    <p>Read more at:
+                        https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/holidays/thanksgiving.html
+                    </p>
+                </div>
+            </div>
+            <div class="contact-information">
+                <h2>Contact Information</h2>
+                <p><a href="#">&#128231; StormGuard</a></p>
+                <p><a href="#"> &#128241; 120 457-4894 </a></p>
+            </div>
+        </main>
     </div>
     <footer>
         <p>&copy;2020 StormGuard| Today's Date: <span id="currentDate"></span> | Joseph Hark <br>
             Connecticut, USA | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script src="date.js"></script>
-        <script src="responsive.js"></script>
+        <script src="js/lazyloading.js"></script>
+        <script src="js/date.js"></script>
+        <script src="js/responsive.js"></script>
         <script src="js/picnic.js"></script>
-        <script src="js/events.js"></script>
+        <script src="js/JSON.js"></script>
         <script src="js/preston-Summary.js"></script>
         <script src="js/preston-Forecast.js"></script>
     </footer>
