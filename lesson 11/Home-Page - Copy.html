@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Weather website for Joseph Hark in WDD 230: Web Frontend Development at Brigham Young University - Idaho" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/town.css" />
+    <script src="date.js"></script>
+    <script src="responsive.js"></script>
+    <script src="js.JSON.js"></script>
+    <script src="js/picnic.js"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>StormGuard Homepage</title>
+</head>
+
+<body>
+    <main>
+        <div id="town">
+
+            <div class="message">
+                <p id="banner">Saturday is Preston Pancakes in the Park! 9:00 a.m. at the city park pavilion.</p>
+            </div>
+            <header>
+                <img class="logo"
+                    src="https://user-images.githubusercontent.com/71291466/95082336-e63f0080-06e8-11eb-9001-30ea0d6288ed.png"
+                    alt="Logo of StormGuard" />
+                <section class="headings">
+                    <h1 class="home-page-title">StormGuard</h1>
+                    <h4 class="m">Giving accurate weather forecast so you can make the most of your day.</h4>
+                </section>
+            </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a class="ham" href="#">&#9776; Menu</a></li>
+                    <li><a href="https://josephhark.github.io/lesson%2011/Home-Page.html">Home Page</a></li>
+                    <li><a href="https://josephhark.github.io/lesson%2011/Preston.html">Preston</a></li>
+                    <li><a href="https://josephhark.github.io/lesson%2011/Fish-Haven.html">Fish Haven</a></li>
+                    <li><a href="https://josephhark.github.io/lesson%2011/Soda-Springs.html">Soda Springs</a></li>
+                    <li><a href="https://josephhark.github.io/lesson%2011/StormCenter.html">Storm Watch</a></li>
+                    <li><a href="https://josephhark.github.io/lesson%2011/Gallery.html">Gallery</a></li>
+                </ul>
+                </nav>
+
+            <h2>Home Page</h2>
+
+            <div class="hero">
+                <img src="https://user-images.githubusercontent.com/71291466/96742939-7049c300-1391-11eb-88aa-45dfa92a7131.jpeg"
+                    alt="Lake before mountian in Idaho." />
+                <h2 class="hero-h2">Hi There!</h2>
+                <p class="hero-text">Welcome to StormGuard. We try to make sure that the weather and activity
+                    information that you get
+                    is both arrucate and fast.
+                    Click on your town below to get local information.</p>
+            </div>
+
+            <div class="towns">
+                
+                    <section class="preston-full">
+                        <div class="preston"></div>
+                        <a href="https://josephhark.github.io/lesson%2011/Preston.html" >
+                        <img class="preston-img"
+                            src="https://user-images.githubusercontent.com/71291466/99138753-eb08a580-2600-11eb-9cad-68f3dff74747.jpg"
+                            alt="Preston, Idaho">
+                    </section>
+                </a>
+
+                <section class="fish-haven-full">
+                        <div class="fish-haven"></div>
+                        <a href="https://josephhark.github.io/lesson%2011/Fish-Haven.html">
+                        <img class="fish-haven-img"
+                            src="https://user-images.githubusercontent.com/71291466/99138758-f3f97700-2600-11eb-807f-7b18ea8eae46.jpg"
+                            alt="Fish Haven, Idaho">
+                    </section>
+                </a>
+                   
+                <section class="soda-springs-full">
+                        <div class="soda-springs"></div>
+                        <a href="https://josephhark.github.io/lesson%2011/Soda-Springs.html">
+                        <img class="soda-springs-img"
+                            src="https://user-images.githubusercontent.com/71291466/99138761-f8be2b00-2600-11eb-98b1-54658f18900e.jpg"
+                            alt="Soda Springs, Idaho">
+                    </section>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2020 StormGuard| Today's Date: <span id="currentDate"></span> | Joseph Hark <br>
+            Connecticut, USA | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+    </footer>
+</body>
+
+</html>
