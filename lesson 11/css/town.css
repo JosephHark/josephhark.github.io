@@ -175,12 +175,13 @@ footer a {
     color: #444444;
 }
 
-.five-day-full{
-    display: block;
-    align-items: center;
+.five-day-full {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
 }
 
-.five-day{
+.five-day {
     display: flex;
     flex-flow: row wrap;
     border-right: 1px solid #333;
@@ -551,13 +552,15 @@ footer a {
         grid-template-columns: 1fr 1fr;
         box-align: left;
     }
-    .article-para-head{
+
+    .article-para-head {
         grid-column: 1/3;
         grid-row: 1/1;
         font-size: 16px;
         font-family: "Epilogue";
         color: #22223b;
     }
+
     .article-img {
         grid-column: 1/2;
         grid-row: 2/2;
@@ -566,7 +569,7 @@ footer a {
         float: left;
         margin: 0 auto;
     }
-    
+
     .article-para-1 {
         grid-column: 2/3;
         grid-row: 2/2;
@@ -581,5 +584,10 @@ footer a {
         font-size: 16px;
         font-family: "Epilogue";
         color: #22223b;
+    }
+
+    .five-day-head,
+    .five-day-col {
+        font-size: larger;
     }
 }
