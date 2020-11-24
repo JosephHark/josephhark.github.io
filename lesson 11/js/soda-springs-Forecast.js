@@ -1,26 +1,29 @@
-const apiURL ="http://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=b013253f6ae81d23487f1707c26a01fd&units=imperial";
-fetch(apiURL)
+const ssforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=a21b3a033736d7d3908ca1bc674e2551"
+fetch(ssforecast)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
 
-        const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
-        console.log(forecast);
+        const forecast = jsObject['list'];
+
+
+        let weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         let day = 0;
-        let weekdays = ["Sunday",
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-        ];
-        forecast.forEach(x => {
-            const d = new Date(x.dt_txt);
-            document.getElementById('dayofweek${day+1}').textContent = weekdays[d.getDate()];
-            document.getElementById('max${day+1}').textContent = x.main.temp_max;
-            document.getElementById('min${day+1}').textContent = x.main.temp_min;
-            day++;
-        })
+
+        for (let i = 6; i < forecast.length; i += 8) {
+
+            const days = new Date(forecast[i].dt_txt);
+            const date = weekday[days.getDay()];
+
+            document.getElementById(`dayofweek${day+i}`).textContent = date;
+
+            const imagesrc = 'https://openweathermap.org/img/w/' + forecast[i].weather[0].icon + '.png';
+            const desc = forecast[i].weather[0].description;
+
+            document.getElementById(`icon${i}`).setAttribute('src', imagesrc);
+            document.getElementById(`icon${i}`).setAttribute('alt', desc);
+            let high = "Min:" + forecast[i].main.temp_max;
+            let low = "Max" + forecast[i].main.temp_min;
+            document.getElementById(`min${i}`).textContent = low;
+            document.getElementById(`max${i}`).textContent = high;
+        }
     });
-    
