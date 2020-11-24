@@ -175,56 +175,45 @@ footer a {
     color: #444444;
 }
 
-.flex {
+.five-day-full{
+    display: block;
+    align-items: center;
+}
+
+.five-day{
     display: flex;
     flex-flow: row wrap;
+    border-right: 1px solid #333;
 }
 
-.flex-col {
+.five-day-col {
     flex: 1 1 auto;
-    background-color: #bed;
-}
-
-.flex-col {
+    background-color: #5db7de;
     border-bottom: 1px solid #333;
     border-left: 1px solid #333;
     text-align: center;
 }
 
-.flex-col:hover {
+.five-day-col:hover {
     opacity: 0.75;
     background-color: #021ca4;
     color: white;
 }
 
-.flex {
-    border-right: 1px solid #333;
-}
-
-.col-head {
-    display: block;
+.five-day-head {
     padding: 5px;
     border-bottom: 1px solid #333;
     text-align: center;
-}
-
-.data {
-    display: block;
-    padding: 0 5px 5px;
-    font-size: 0.8rem;
-    text-align: center;
-}
-
-.flex img {
-    border-radius: 100px;
-    padding: 0.25rem;
-}
-
-.col-head {
     font-weight: 700;
     font-size: 1rem;
     background-color: black;
     color: white;
+}
+
+
+.five-day img {
+    border-radius: 100px;
+    padding: 0.25rem;
 }
 
 #article img {
