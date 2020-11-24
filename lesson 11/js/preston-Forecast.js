@@ -22,7 +22,7 @@ fetch(pforecast)
         document.getElementById(`icon${i}`).setAttribute('src', imagesrc);
         document.getElementById(`icon${i}`).setAttribute('alt', desc);
         let high = "Min:" + forecast[i].main.temp_max;
-        let low = "Max" + forecast[i].main.temp_min;
+        let low = "Max:S" + forecast[i].main.temp_min;
         document.getElementById(`min${i}`).textContent = low;
         document.getElementById(`max${i}`).textContent = high;
     }
