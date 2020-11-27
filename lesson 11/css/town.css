@@ -393,7 +393,6 @@ footer a {
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        box-align: left;
     }
 
     .article-img {
@@ -550,7 +549,6 @@ footer a {
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        box-align: left;
     }
 
     .article-para-head {
