@@ -116,7 +116,7 @@ fetch(requestURL)
 
                 document.querySelector('.Honda-Pioneer-ATV').appendChild(card);
             }
-            else if (rentals[i].Type == "Jeep Wrangler 4 door") {
+            else if (rentals[i].Type == "Jeep Wrangler - 4 door") {
                 let card = document.createElement('a');
                 let h2 = document.createElement('h2');
                 let people = document.createElement('p');
@@ -143,7 +143,7 @@ fetch(requestURL)
 
                 document.querySelector('.Jeep-Wrangler-4-door').appendChild(card);
             }
-            else if (rentals[i].Type == "Jeep Wrangler 2 door") {
+            else if (rentals[i].Type == "Jeep Wrangler - 2 door") {
                 let card = document.createElement('a');
                 let h2 = document.createElement('h2');
                 let people = document.createElement('p');
