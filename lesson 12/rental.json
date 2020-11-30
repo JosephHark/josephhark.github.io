@@ -1,52 +1,52 @@
 {
     "rentals": [
         {
-            "Type":"Honda Metro Scooter",
-            "Max People":"1",
-            "Half-Day-Reservation":"$20",
-            "Full-Day-Reservation":"$30",
-            "Half-Day-Rental":"$25",
-            "Full-Day-Rental":"$35"
+            "Type": "Honda Metro Scooter",
+            "MaxPeople": "1",
+            "HalfDayReservation":"$20",
+            "FullDayReservation":"$30",
+            "HalfDayRental":"$25",
+            "FullDayRental":"$35"
         },
         {
             "Type":"Honda Dio Scooter",
-            "Max People":"2",
-            "Half-Day-Reservation":"$20",
-            "Full-Day-Reservation":"$40",
-            "Half-Day-Rental":"$35",
-            "Full-Day-Rental":"$45"
+            "MaxPeople":"2",
+            "HalfDayReservation":"$20",
+            "FullDayReservation":"$40",
+            "HalfDayRental":"$35",
+            "FullDayRental":"$45"
         },
         {
             "Type":"Honda PCX150 Scooter",
-            "Max People":"2",
-            "Half-Day-Reservation":"$40",
-            "Full-Day-Reservation":"$50",
-            "Half-Day-Rental":"$45",
-            "Full-Day-Rental":"$55"
+            "MaxPeople":"2",
+            "HalfDayReservation":"$40",
+            "FullDayReservation":"$50",
+            "HalfDayRental":"$45",
+            "FullDayRental":"$55"
         },
         {
             "Type":"Honda Pioneer ATV",
-            "Max People":"4",
-            "Half-Day-Reservation":"$50",
-            "Full-Day-Reservation":"$70",
-            "Half-Day-Rental":"$60",
-            "Full-Day-Rental":"$80"
+            "MaxPeople":"4",
+            "HalfDayReservation":"$50",
+            "FullDayReservation":"$70",
+            "HalfDayRental":"$60",
+            "FullDayRental":"$80"
         },
         {
             "Type":"Jeep Wrangler - 4 door with a/c",
-            "Max People":"5",
-            "Half-Day-Reservation":"$70",
-            "Full-Day-Reservation":"$100",
-            "Half-Day-Rental":"$85",
-            "Full-Day-Rental":"$125"
+            "MaxPeople":"5",
+            "HalfDayReservation":"$70",
+            "FullDayReservation":"$100",
+            "HalfDayRental":"$85",
+            "FullDayRental":"$125"
         },
         {
             "Type":"Jeep Wrangler - 2 door",
-            "Max People":"4",
-            "Half-Day-Reservation":"$60",
-            "Full-Day-Reservation":"$85",
-            "Half-Day-Rental":"$70",
-            "Full-Day-Rental":"$90"
+            "MaxPeople":"4",
+            "HalfDayReservation":"$60",
+            "FullDayReservation":"$85",
+            "HalfDayRental":"$70",
+            "FullDayRental":"$90"
         }
     ]
 }
