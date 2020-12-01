@@ -27,17 +27,79 @@
 
         </section>
 
-        <section class="weathersumamry">
+        <table class="weather_table">
+            <tbody>
+                <tr>
+                    <td>Currently</td>
+                    <td><span id="currently"></span></td>
+                </tr>
+                <tr>
 
+                    <td>Current Temp</td>
+                    <td id="current-temp">&#xb0;F</td>
+
+                </tr>
+                <tr>
+                    <td>High</td>
+                    <td id="tempH">&#xb0;F</td>
+                </tr>
+                <tr>
+                    <td>Low</td>
+                    <td id="tempL">&#xb0;F</td>
+                </tr>
+                <tr>
+                    <td>Humidity</td>
+                    <td id="humidity"></td>
+                </tr>
+                <tr>
+
+                    <td>Wind Speed</td>
+                    <td id="speed"></td>
+
+                </tr>
+                <tr>
+                    <td>Feels like</td>
+                    <td id="windchill">&#xb0;F</td>
+                </tr>
+            </tbody>
+        </table>
         </section>
 
-        <section class ="three-day">
+        <section class="three-day">
+            <div class="five-day-full">
+                <h2>Five-Day Forecast</h2>
+                <div class="five-day">
+                    <table>
+                        <tr>
+                            <th id="dayofweek6" class="five-day-head"></th>
+                            <th id="dayofweek14" class="five-day-head"></th>
+                            <th id="dayofweek22" class="five-day-head"></th>
+                        </tr>
+                        <tr>
+                            <td> &nbsp;<img src="#" alt="" id="icon6" class="five-day-img"></td>
+                            <td> &nbsp;<img src="#" alt="" id="icon14" class="five-day-img"></td>
+                            <td> &nbsp;<img src="#" alt="" id="icon22" class="five-day-img"></td>
+                        </tr>
 
+                        <tr>
+                            <td id="min6" class="five-day-col">&deg; F</td>
+                            <td id="min14" class="five-day-col">&deg; F</td>
+                            <td id="min22" class="five-day-col">&deg; F</td>
+                        </tr>
+                        <tr>
+                            <td id="max6" class="five-day-col">&deg; F</td>
+                            <td id="max14" class="five-day-col">&deg; F</td>
+                            <td id="max22" class="five-day-col">&deg; F</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </section>
 
-        <section class = "rental summary">
+        <section class="rental summary">
 
-        
+
         </section>
     </main>
 
@@ -45,7 +107,7 @@
         <p>&copy;2020 Scoots| Today's Date: <span id="currentDate"></span> <br>
             Joseph Hark| Cozumel, Mexico </p>
         <script src="js/date.js"></script>
-        <script src="js/rentals.js"></script>
+        <script src="js/onetimeAPI.js"></script>
     </footer>
 </body>
 

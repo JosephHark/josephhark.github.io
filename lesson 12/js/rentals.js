@@ -17,14 +17,12 @@ fetch(requestURL)
                 let halfrent = document.createElement('p')
                 let fullrent = document.createElement('p');
 
-
                 h2.textContent = rentals[i].Type;
                 people.textContent = "Max number of peeople allowed on vehicle:" + rentals[i].MaxPeople;
                 halfres.textContent = "Half-Day Reservation (3 Hours):" + rentals[i].HalfDayReservation;
                 fullres.textContent = "Full-Day Reservation: " + rentals[i].FullDayReservation;
                 halfrent.textContent = `Half-Day Rental (3 Hours): ${rentals[i].HalfDayRental}`;
                 fullrent.textContent = `Full-Day Rental: ${rentals[i].FullDayRental}`;
-
 
                 card.appendChild(h2);
                 card.appendChild(people);
