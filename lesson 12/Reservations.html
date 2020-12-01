@@ -4,21 +4,74 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description"
-        content="Scoots Rental Website (by Joseph Hark for WDD 230 BYUI)" />
-    
+    <meta name="description" content="Scoots Rental Website (by Joseph Hark for WDD 230 BYUI)" />
+
     <title>Reservations</title>
 </head>
 
 <body>
     <main>
-      <form></form>
+        <form name="myForm" action="/action_page.php" method="get">
+            <fieldset id="contact">
+                <h3><label for="contact"> Contact Information:</label></h3><br>
+
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" required minlength="5" maxlength="20" size="20"><br>
+
+                <label for="fname">Last Name:</label><br>
+                <input type="text" id="lname" required minlength="5" maxlength="20" size="20"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="sc00terman1c@gmail.com" size="30" required><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+                <small>Format: 123-456-7890</small><br>
+
+                <label for="date">Date:</label><br>
+                <input type="date" id="date" name="reservation-date" min="2018-01-01" max="2022-12-31"><br>
+
+                <label for="peroid">Length of Reservations</label><br>
+                <input type="range" id="peroid" name="peroid" min="0" max="20">
+                <p>Length: <span id="demo"></span></p><br>
+
+                <label for="home">Home Country:</label><br>
+                <input type="text" id="home" name="home"size="15"><br>
+
+                <label for="state">Home State <i>(if applicable)</i>:</label><br>
+                <input type="text" id="state" name="state" size="15"><br>
+
+                <label for="Type">Veheicles:</label><br>
+                <input list="scooters" id="type" name="kinds-of-scooters" />
+
+                <datalist id="scooters">
+                    <option value="Honda Metro Scooter"></option>
+                    <option value="Honda Dio Scooter"></option>
+                    <option value="Honda PCX150 Scooter"></option>
+                    <option value="Honda Pioneer ATV"></option>
+                    <option value="Jeep Wrangler - 4 door with a/c"></option>
+                    <option value="Jeep Wrangler - 2 door"></option>
+                </datalist><br>
+
+                <label for="fname">Cruise Line<i>(if applicable)</i>:</label><br>
+                <input type="text" id="CLine" required minlength="5" maxlength="20" size="20"><br>
+
+            </fieldset>
+
+            <label for="moreInfo">Tell us below if there is more information that you think we should
+                know, such as location of a drop-off:</label><br>
+            <textarea id="moreInfo" name="story" rows="5" cols="33"></textarea><br>
+
+            <input type="button" onclick="formSubmit()" id="send" value="Submit Reservations">
+        </form>
     </main>
-    <script src="js/date.js"></script>
+
     <footer>
-        <p>&copy;2020 Scoots| Today's Date: <span id="currentDate"></span> <br> 
+        <p>&copy;2020 Scoots| Today's Date: <span id="currentDate"></span> <br>
             Joseph Hark| Cozumel, Mexico </p>
     </footer>
+    <script src="js/date.js"></script>
+    <Script src="js/submit.js"> </Script>
 </body>
 
 </html>
