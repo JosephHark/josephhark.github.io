@@ -11,7 +11,7 @@
 
 <body>
     <main>
-        <form name="myForm" action="/action_page.php" method="get">
+c        <form name="myForm" action="https://josephhark.github.io/lesson%2012/deposit.html" method="get">
             <fieldset id="contact">
                 <h3><label for="contact"> Contact Information:</label></h3><br>
 
@@ -36,7 +36,7 @@
                 <p>Length: <span id="demo"></span></p><br>
 
                 <label for="home">Home Country:</label><br>
-                <input type="text" id="home" name="home"size="15"><br>
+                <input type="text" id="home" name="home" size="15"><br>
 
                 <label for="state">Home State <i>(if applicable)</i>:</label><br>
                 <input type="text" id="state" name="state" size="15"><br>
@@ -56,11 +56,10 @@
                 <label for="fname">Cruise Line<i>(if applicable)</i>:</label><br>
                 <input type="text" id="CLine" required minlength="5" maxlength="20" size="20"><br>
 
+                <label for="moreInfo">Tell us below if there is more information that you think we should
+                    know, such as location of a drop-off:</label><br>
+                <textarea id="moreInfo" name="story" rows="5" cols="33"></textarea><br>
             </fieldset>
-
-            <label for="moreInfo">Tell us below if there is more information that you think we should
-                know, such as location of a drop-off:</label><br>
-            <textarea id="moreInfo" name="story" rows="5" cols="33"></textarea><br>
 
             <input type="button" onclick="formSubmit()" id="send" value="Submit Reservations">
         </form>
