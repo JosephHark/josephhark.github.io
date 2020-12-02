@@ -11,7 +11,7 @@
 
 <body>
     <main>
-        <form name="myForm" method="GET" action="deposit.html">
+        <form name="myForm" method="GET" onsubmit="return results();">
             <fieldset id="contact">
                 <h3><label for="contact"> Contact Information:</label></h3><br>
 
@@ -41,7 +41,7 @@
                 <label for="state">Home State <i>(if applicable)</i>:</label><br>
                 <input type="text" id="state" name="state" size="15"><br>
 
-                <label for="type">Vehicles:</label><br>
+                <label for="type">Veheicles:</label><br>
                 <input list="scooters" id="type" required name="kinds-of-scooters" />
 
                 <datalist id="scooters">
@@ -53,10 +53,10 @@
                     <option value="Jeep Wrangler - 2 door"></option>
                 </datalist><br>
 
-                <label for="amount">Number of Vehicles (1-100):</label>
-                <input type="number" id="amount" name="amount" min="1" max="100
+                <label for="amount">Number of Vehicles (1-100):</label><br>
+                <input type="number" id="amount" name="amount" min="1" max="100"><br>
 
-                <label for=" CLine">Cruise Line<i>(if applicable)</i>:</label><br>
+                <label for="CLine">Cruise Line<i>(if applicable)</i>:</label><br>
                 <input type="text" id="CLine" required minlength="5" maxlength="20" size="20"><br>
 
             </fieldset>
@@ -65,8 +65,66 @@
                 know, such as location of a drop-off:</label><br>
             <textarea id="moreInfo" name="story" rows="5" cols="33"></textarea><br>
 
-            <input type="button" onclick="formSubmit()" id="send" value="Submit Reservations">
+            <input id="submit" type="submit" value="Send Reservation Information" />
+
         </form>
+        <script>
+            function results() {
+                var firstn = document.getElementById('fname').value;
+                var lastn = document.getElementById('lname').value;
+                var email = document.getElementById('email').value;
+                var phone = document.getElementById('phone').value;
+                var date = document.getElementById('date').value;
+                var time = document.getElementById('peroid').value;
+                var homec = document.getElementById('home').value;
+                var homes = document.getElementById('state').value;
+                var vehicle = document.getElementById('type').value;
+                var number = document.getElementById('amount').value;
+                var cruise = document.getElementById('CLine').value;
+                var info = document.getElementById('moreInfo').value;
+
+                document.write("<h1> Thank You!</h1>")
+                document.write("Name: " + firstn + " " + lastn + "<br/>");
+
+                document.write("Email: " + email + "<br/>");
+
+                document.write("Phone Number: " + phone + "<br/>");
+
+                document.write("Date of reservation: " + date + "<br/>");
+
+                document.write("Peroid of Reservation: " + time + " days<br/>");
+
+                document.write("Home Country, Home State: " + homec);
+
+                document.write(", " + homes + "<br/>");
+
+                document.write("Choice of Vehicle: " + vehicle + "<br/>");
+
+                document.write("Number of Requested Vehicles: " + number + "<br/>");
+
+                document.write("Crusie Line: " + cruise + "<br/>");
+
+                document.write("Additional Information: " + info + "<br/>");
+
+                document.write(
+                    "<p>Thank you for your reservation, this is information that you entered." +
+                    " If this is correct, click below to enter your deposit.</p>"
+                )
+                var btnSubmit = document.createElement("BUTTON");
+                var btnText = document.createTextNode('Confirm');
+
+                btnSubmit.appendChild(btnText);
+                document.body.appendChild(btnSubmit);
+
+                btnSubmit.id = "confirm";
+
+                document.getElementById("confirm").onclick = function () {
+                    location.href = "https://josephhark.github.io/lesson%2012/deposit.html";
+
+                }
+            }
+        </script>
+
     </main>
 
     <footer>
