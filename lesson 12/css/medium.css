@@ -1,0 +1,22 @@
+/*Tablet veiw*/
+@media only screen and (min-width: 500px) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+}
