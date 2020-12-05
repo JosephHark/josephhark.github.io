@@ -3,6 +3,20 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
+
+        var type = jsObject.alerts.event;
+        document.getElementById('alerts-type').textContent = type;
+
+        var warning = jsObject.alerts.description;
+        document.getElementById('alerts').innerHTML = warning;
+
+        var start = jsObject.alerts.start;
+        document.getElementById('alerts-start').textContent = start;
+
+        var end = jsObject.alerts.end;
+        document.getElementById('alerts-end').innerHTML = end;
+
+
         var currently = jsObject.current.weather.description;
         document.getElementById('currently').textContent = currently;
 
@@ -11,6 +25,7 @@ fetch(apiURL)
 
         var humidity = jsObject.current.humidity;
         document.getElementById('humidity').innerHTML = humidity + " %";
+
 
         const forecast = jsObject['list'];
 
