@@ -1,5 +1,9 @@
 /*Tablet veiw*/
 @media only screen and (min-width: 500px) {
+    .rentals{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .navigation {
         display: flex;
     }

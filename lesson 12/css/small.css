@@ -1,4 +1,8 @@
 /*Phone*/
+.rentals{
+    display: grid;
+    grid-template-columns:1fr;
+}
 .navigation {
     list-style: none;
     padding: 0;
@@ -26,4 +30,7 @@
 
 .responsive li {
     display: block;
+}
+.large-table{
+    display: none;
 }
