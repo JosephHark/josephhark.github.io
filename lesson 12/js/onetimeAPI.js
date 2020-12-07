@@ -1,10 +1,11 @@
-let apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=20.5000&lon=-86.9500&appid=a21b3a033736d7d3908ca1bc674e2551";
+var apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=20.5000&lon=-86.9500&appid=a21b3a033736d7d3908ca1bc674e2551";
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
 
         var type = jsObject.alerts.event;
+        console.log(type);
         document.getElementById('alert-type').textContent = type;
 
         var warning = jsObject.alerts.description;
