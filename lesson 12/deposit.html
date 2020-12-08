@@ -14,7 +14,11 @@
 
 <body>
     <header>
-
+        <h1 class="header">Scoots</h1>
+        <p class="head-motto">Make your trip enjoyable</p>
+        <img class="head-img"
+            src="https://user-images.githubusercontent.com/71291466/101513441-308f6880-394a-11eb-90c7-d5b18595eedd.png"
+            alt="header img">
     </header>
     <nav>
         <ul class="navigation">
@@ -61,11 +65,10 @@
                 <div class="col-50">
                     <h3>Payment</h3>
                     <label for="fname">Accepted Cards</label>
-                    <div class="icon-container">
-                        <i class="fa fa-cc-visa" style="color:navy;"></i>
-                        <i class="fa fa-cc-amex" style="color:blue;"></i>
-                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
-                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                    <div id="fname">
+                        <img class="icon" src="https://user-images.githubusercontent.com/71291466/101514111-ebb80180-394a-11eb-92c2-7319298fd0a8.jpg" alt="visa icon">
+                        <img class="icon" src="https://user-images.githubusercontent.com/71291466/101514207-05f1df80-394b-11eb-9c9c-9dbadb69f411.jpg" alt=" mastercard icon">
+                        <img class="icon" src="https://user-images.githubusercontent.com/71291466/101514390-346fba80-394b-11eb-93d3-d746ad4eff9e.jpg" alt=" discover icon">
                     </div>
                     <label for="cname">Name on Card</label>
                     <input type="text" id="cname" name="cardname" placeholder="John More Doe">
@@ -87,7 +90,7 @@
 
             </div>
 
-            <input type="submit" value="Confirm Reservation" class="btn">
+            <input type="submit" value="Confirm Reservation" onclick="formSubmit()" class="btn">
         </form>
     </main>
 
@@ -98,6 +101,7 @@
     <script src="js/date.js"></script>
     <script src="js/submit.js"></script>
     <script src="js/hambutton.js"></script>
+    <script src="js/confirmation.js"></script>
 </body>
 
 </html>

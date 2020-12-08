@@ -14,9 +14,8 @@ let whole = Array.from(document.querySelectorAll('#contact input')).reduce((acc,
 }), {});
 
 console.log(whole);
-/*
+
 function formSubmit() {
     document.forms["myForm"].submit();
     location.replace("https://josephhark.github.io/lesson%2012/deposit.html")
 }
-*/
