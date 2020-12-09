@@ -46,32 +46,38 @@
         </ul>
     </nav>
     <main>
-        <img class="hero-img"
-            src="https://user-images.githubusercontent.com/71291466/101536709-5f1c3c00-3968-11eb-9d1b-62514b2cf3e1.jpg"
-            alt="hero image of under wwater">
-        <table class="weather_table">
-            <tbody>
-                <tr>
-                    <td>Currently</td>
-                    <td><span id="currently"></span></td>
-                </tr>
-                <tr>
+        <div id="hero-box">
+            <img src="https://user-images.githubusercontent.com/71291466/101691066-1f268900-3a3c-11eb-90e6-319785232125.jpg"
+                alt="hero image of under water">
 
-                    <td>Current Temp</td>
-                    <td id="current-temp">&#xb0;F</td>
+            <section class="weatherSum">
+                <h3 class="wsheader">Weather Summary</h3>
+                <table class="weather_table">
+                    <tbody>
+                        <tr>
+                            <td>Currently</td>
+                            <td id="currently"></td>
+                        </tr>
 
-                </tr>
-                <tr>
-                    <td>Humidity</td>
-                    <td id="humidity"></td>
-                </tr>
-            </tbody>
-        </table>
+                        <tr>
+                            <td>Current Temp</td>
+                            <td id="current-temp"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Humidity</td>
+                            <td id="humidity"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+
         <img class="island-image"
-            src="https://user-images.githubusercontent.com/71291466/101536712-5fb4d280-3968-11eb-898f-6813174d14fa.jpg"
+            src="https://user-images.githubusercontent.com/71291466/101690795-c820b400-3a3b-11eb-86a7-94030e8e9d51.jpg"
             alt="img of island 2">
         <img class="island-image"
-            src="https://user-images.githubusercontent.com/71291466/101536714-604d6900-3968-11eb-80b0-df73795c5a34.jpg"
+            src="https://user-images.githubusercontent.com/71291466/101690717-a45d6e00-3a3b-11eb-881e-54f853b0d645.jpg"
             alt="img of island 3">
         <div class="three-day-full">
             <h2>Three-Day Forecast</h2>
@@ -105,6 +111,7 @@
             alt="rental facility img 2">
         <section class="call-to-action">
             <h3>What are you waiting for? Make a reservation! Expirence freedom.</h3>
+            <p> Book a trip to enjoy authenic food, visit fascinating historical sites and and so much more!</p>
         </section>
         <section class="social-media">
             <a href="https://www.facebook.com/r.php"><img
@@ -134,7 +141,6 @@
     <script src="js/date.js"></script>
     <script src="js/lastModified.js"></script>
     <script src="js/onetimeAPI.js"></script>
-    <script src="js/action.js"></script>
     <script src="js/hambutton.js"></script>
 </body>
 
