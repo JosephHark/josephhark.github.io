@@ -32,7 +32,9 @@
 .responsive li {
     display: block;
 }
-
+.medium-table{
+    display: none;
+}
 .large-table {
     display: none;
 }

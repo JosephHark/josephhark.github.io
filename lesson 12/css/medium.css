@@ -7,6 +7,9 @@
     .navigation {
         display: flex;
     }
+    .medium-table{
+        display: table;
+    }
 
     .navigation li {
         display: block;
