@@ -61,7 +61,7 @@
         width: 40%;
     }
 
-c    .tour-pictures {
+    .tour-pictures {
         max-width: 550px;
         height: 260px;
     }
@@ -81,7 +81,7 @@ c    .tour-pictures {
     #places-to-visit {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 3px;
+        column-gap: 5px;
     }
 
     #places-to-visit :nth-child(7) {
@@ -91,7 +91,7 @@ c    .tour-pictures {
     #history {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 3px;
+        column-gap: 5px;
     }
 
     #history :nth-child(3) {
@@ -101,12 +101,12 @@ c    .tour-pictures {
     #island-features {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 3px;
+        column-gap: 5px;
     }
 
     #places-to-eat {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 3px;
+        column-gap: 5px;
     }
 }
