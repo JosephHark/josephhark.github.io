@@ -61,12 +61,52 @@
         width: 40%;
     }
 
-    .tour-pictures{
-        max-width: 250px;
-        height: auto;
+c    .tour-pictures {
+        max-width: 550px;
+        height: 260px;
     }
 
-    #places-to-visit h4{
-        width: 40%;
+    #places-to-visit h4 {
+        width: 45%;
+    }
+
+    #island-features h4 {
+        width: 45%;
+    }
+
+    #places-to-eat h4 {
+        width: 45%;
+    }
+
+    #places-to-visit {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3px;
+    }
+
+    #places-to-visit :nth-child(7) {
+        grid-column: 1 / span 2;
+    }
+
+    #history {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3px;
+    }
+
+    #history :nth-child(3) {
+        grid-column: 1 / span 2;
+    }
+
+    #island-features {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3px;
+    }
+
+    #places-to-eat {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3px;
     }
 }

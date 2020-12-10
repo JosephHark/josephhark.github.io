@@ -1,5 +1,5 @@
 /*Tablet veiw*/
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 400px) {
     .rentals {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -52,7 +52,7 @@ form input {
     width: 80%;
 }
 .tour-pictures{
-    max-width: 150px;
+    max-width: 225px;
     height: auto;
 }
 }
