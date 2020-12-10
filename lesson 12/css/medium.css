@@ -1,13 +1,15 @@
 /*Tablet veiw*/
 @media only screen and (min-width: 500px) {
-    .rentals{
+    .rentals {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
     .navigation {
         display: flex;
     }
-    .medium-table{
+
+    .medium-table {
         display: table;
     }
 
@@ -26,4 +28,27 @@
     .navigation li:first-child {
         display: none;
     }
+
+    form {
+        max-width: 30em;
+    }
+    
+form label,
+form div {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 3px;
+    width: 88%;
+}
+
+form textarea {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+form input {
+    width: 80%;
+}
 }
