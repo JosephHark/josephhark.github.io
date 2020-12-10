@@ -109,4 +109,9 @@
         grid-template-columns: 1fr 1fr;
         column-gap: 5px;
     }
+    .contact-us-page{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+    }
 }
