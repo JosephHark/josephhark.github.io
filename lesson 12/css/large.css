@@ -61,4 +61,12 @@
         width: 40%;
     }
 
+    .tour-pictures{
+        max-width: 250px;
+        height: auto;
+    }
+
+    #places-to-visit h4{
+        width: 40%;
+    }
 }

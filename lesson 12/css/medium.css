@@ -51,4 +51,8 @@ form textarea {
 form input {
     width: 80%;
 }
+.tour-pictures{
+    max-width: 150px;
+    height: auto;
+}
 }
