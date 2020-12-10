@@ -61,29 +61,4 @@
         width: 40%;
     }
 
-    .weatherSum {
-        background-color: #0275f4;
-        top: 25px;
-        left: 25px;
-        border-top: 1px solid #444444;
-        border-bottom: 1px solid #444444;
-        width: 30%;
-    }
-
-    .wsheader {
-        color: #eace6a;
-        text-decoration: underline;
-        font-size: 24px;
-        font-family: "Epilogue";
-    }
-
-    .weather_table {
-        width: 100%;
-        height: 1.5em;
-        color: #FBFBFA;
-        background-color: #000080;
-        font-size: 18px;
-        text-align: left;
-    }
-
 }
