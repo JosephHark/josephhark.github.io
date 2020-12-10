@@ -14,7 +14,11 @@
 
 <body>
     <header>
-
+        <h1 class="header">Scoots</h1>
+        <p class="head-motto">Make your trip enjoyable</p>
+        <img class="head-img"
+            src="https://user-images.githubusercontent.com/71291466/101513441-308f6880-394a-11eb-90c7-d5b18595eedd.png"
+            alt="header img">
     </header>
     <nav>
         <ul class="navigation">
@@ -27,58 +31,44 @@
         </ul>
     </nav>
     <main>
-        <div class="map"></div>
-        <div class="show-locations"></div>
-        <!DOCTYPE html>
-        <html lang="en-us">
+        <h3> Find us at the locations below!</h3>
+        <div class="contact-us-page">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d29898.39523433077!2d-86.97981025549679!3d20.493949022220374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x8f4e5748bac98d29%3A0xec697a2a774f7a00!2sTerminal%20Puerta%20Maya%2C%20Coastal%20Highway%20South%2C%20San%20Miguel%20de%20Cozumel%2C%20Quintana%20Roo%2C%20Mexico!3m2!1d20.475821999999997!2d-86.974762!4m5!1s0x8f4e59cf3a0ece15%3A0x9216e3c2b55e5526!2sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock%2C%20Av.%20Rafael%20E.%20Melgar%2C%20Centro%2C%2077600%20San%20Miguel%20de%20Cozumel%2C%20Q.R.%2C%20Mexico!3m2!1d20.5119974!2d-86.950779!5e0!3m2!1sen!2sus!4v1607354181570!5m2!1sen!2sus"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            <form name="myForm" method="GET">
+                <fieldset id="contact">
+                    <h3><label for="contact"> Contact Information:</label></h3><br>
 
-        <head>
-            <meta charset="utf-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <meta name="description" content="Scoots Rental Website (by Joseph Hark for WDD 230 BYUI)" />
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" required minlength="5" maxlength="20" size="20" value=""><br>
 
-            <title>Contact Us</title>
-        </head>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" placeholder="sc00terman1c@gmail.com" size="30" required><br>
 
-        <body>
-            <main>
-                <div class="contact-us-page">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d29898.39523433077!2d-86.97981025549679!3d20.493949022220374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x8f4e5748bac98d29%3A0xec697a2a774f7a00!2sTerminal%20Puerta%20Maya%2C%20Coastal%20Highway%20South%2C%20San%20Miguel%20de%20Cozumel%2C%20Quintana%20Roo%2C%20Mexico!3m2!1d20.475821999999997!2d-86.974762!4m5!1s0x8f4e59cf3a0ece15%3A0x9216e3c2b55e5526!2sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock%2C%20Av.%20Rafael%20E.%20Melgar%2C%20Centro%2C%2077600%20San%20Miguel%20de%20Cozumel%2C%20Q.R.%2C%20Mexico!3m2!1d20.5119974!2d-86.950779!5e0!3m2!1sen!2sus!4v1607354181570!5m2!1sen!2sus"
-                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
-                    <form name="myForm" method="GET">
-                        <fieldset id="contact">
-                            <h3><label for="contact"> Contact Information:</label></h3><br>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+                    <small>Format: 123-456-7890</small><br>
 
-                            <label for="fname">First name:</label><br>
-                            <input type="text" id="fname" required minlength="5" maxlength="20" size="20" value=""><br>
+                    <label for="moreInfo">Comments:</label><br>
+                    <textarea id="moreInfo" name="story" rows="5" cols="33"></textarea><br>
 
-                            <label for="email">Email:</label><br>
-                            <input type="email" id="email" placeholder="sc00terman1c@gmail.com" size="30" required><br>
+                    <input id="submit" type="submit" value="Contact Us!" />
 
-                            <label for="phone">Phone Number:</label><br>
-                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
-                            <small>Format: 123-456-7890</small><br>
-
-                            <label for="moreInfo">Comments:</label><br>
-                            <textarea id="moreInfo" name="story" rows="5" cols="33"></textarea><br>
-
-                            <input id="submit" type="submit" value="Contact Us!" />
-
-                    </form>
-                </div>
-            </main>
-            <footer class="footer">
-                <p>&copy;2020 Scoots| Today's Date: <span id="currentDate"></span>
-                    <br> Last Modified: <span id="lastModified"></span> <br>
-                    Joseph Hark| Cozumel, Mexico </p>
-            </footer>
-            <!-- <a href="https://josephhark.github.io/lesson%2012/reference.html">
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy;2020 Scoots| Today's Date: <span id="currentDate"></span>
+            <br> Last Modified: <span id="lastModified"></span> <br>
+            Joseph Hark| Cozumel, Mexico </p>
+    </footer>
+    <!-- <a href="https://josephhark.github.io/lesson%2012/reference.html">
         <p>reference</p></a> -->
-            <script src="js/date.js"></script>
-            <script src="js/lastModified.js"></script>
-            <script src="js/hambutton.js"></script>
-        </body>
+    <script src="js/date.js"></script>
+    <script src="js/lastModified.js"></script>
+    <script src="js/hambutton.js"></script>
+</body>
 
-        </html>
+</html>

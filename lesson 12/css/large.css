@@ -8,6 +8,9 @@
     .small-table {
         display: none;
     }
+    .medium-table{
+        display: none;
+    }
 
     .large-table {
         display: table;
