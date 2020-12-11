@@ -9,6 +9,10 @@
         display: flex;
     }
 
+    .small-table {
+        display: none
+    }
+
     .medium-table {
         display: table;
     }
@@ -32,45 +36,46 @@
     form {
         max-width: 30em;
     }
-    
-form label,
-form div {
-    display: block;
-    padding: 0;
-    margin: 0 auto;
-    margin-top: 3px;
-    width: 88%;
-}
 
-form textarea {
-    width: 80%;
-    margin: 0;
-    padding: 0;
-}
+    form label,
+    form div {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 3px;
+        width: 88%;
+    }
 
-form input {
-    width: 80%;
-}
-.tour-pictures{
-    max-width: 225px;
-    height: auto;
-}
+    form textarea {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
 
-.head-img {
-    width: 150px;
-    height: auto;
-}
+    form input {
+        width: 80%;
+    }
 
-.header-h1 {
-    margin: 0 0 0 17px;
-    background-color: #000080;
-    font-size: 24px;
-}
+    .tour-pictures {
+        max-width: 225px;
+        height: auto;
+    }
 
-.head-motto {
-    letter-spacing: 1pt;
-    margin-left: 20px;
-    font-size: 18px;
+    .head-img {
+        width: 150px;
+        height: auto;
+    }
 
-}
+    .header-h1 {
+        margin: 0 0 0 17px;
+        background-color: #000080;
+        font-size: 24px;
+    }
+
+    .head-motto {
+        letter-spacing: 1pt;
+        margin-left: 20px;
+        font-size: 18px;
+
+    }
 }
