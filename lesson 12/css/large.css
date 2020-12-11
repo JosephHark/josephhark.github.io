@@ -125,15 +125,32 @@
     .call-to-action-head {
         width: 45%;
     }
-    .social-media img{
+
+    .social-media img {
         height: auto;
         width: 100px;
     }
-    #contact-forms{
+
+    #contact-forms {
         display: grid;
-        grid-template-columns: 1fr 2fr 2fr 1fr ;
+        grid-template-columns: 1fr 2fr 2fr 1fr;
     }
-    #contact-form{
+
+    #contact-form {
         grid-column: 2/3;
+    }
+
+    #rental-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .rental-info {
+        grid-column: 2;
+    }
+
+    #rental-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
