@@ -250,3 +250,6 @@ header {
 .social-media{
     justify-content: flex-end;
 }
+.map{
+    width: 100%;
+}
