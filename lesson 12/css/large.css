@@ -8,7 +8,8 @@
     .small-table {
         display: none;
     }
-    .medium-table{
+
+    .medium-table {
         display: none;
     }
 
@@ -112,9 +113,20 @@
         grid-template-columns: 1fr 1fr;
         column-gap: 5px;
     }
-    .contact-us-page{
+
+    .contact-us-page {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 5px;
+    }
+
+    .rental-summary-head,
+    .forecast-head,
+    .call-to-action-head {
+        width: 45%;
+    }
+    .social-media img{
+        height: auto;
+        width: 100px;
     }
 }
