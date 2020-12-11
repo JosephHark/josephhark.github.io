@@ -197,8 +197,19 @@
             'img header header header header'
             'img motto motto motto motto';
     }
+
     .navigation {
         font-size: 24px;
         margin-bottom: 5px;
     }
+
+    .homepage-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .centered-homepage {
+        grid-column: 2;
+    }
+
 }

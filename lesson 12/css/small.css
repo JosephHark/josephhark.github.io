@@ -14,6 +14,7 @@ main {
     padding: 0;
     margin: 0 auto;
     background-color: #0275f4;
+    color: #9acd32;
 }
 
 .navigation li:first-child {
@@ -232,4 +233,7 @@ header {
 
 .alert-content {
     grid-column: 2;
+}
+.island-image, #hero-box-pic{
+    max-width: 75%;
 }
