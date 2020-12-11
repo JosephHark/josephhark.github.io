@@ -30,121 +30,122 @@
             <li><a href="https://josephhark.github.io/lesson%2012/Contact-Us.html">Contact Us</a></li>
         </ul>
     </nav>
-    <main>
-        <form name="myForm" method="GET" onsubmit="return results();">
-            <fieldset id="contact">
-                <h3><label for="contact"> Contact Information:</label></h3><br>
+    <main id="contact-forms">
+        <div id="contact-form">
+            <form name="myForm" method="GET" onsubmit="return results();">
+                <fieldset id="contact">
+                    <h3><label for="contact"> Contact Information:</label></h3><br>
 
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" required minlength="5" maxlength="20" size="20" value=""><br>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" required minlength="5" maxlength="20" size="20" value=""><br>
 
-                <label for="lname">Last Name:</label><br>
-                <input type="text" id="lname" required minlength="5" maxlength="20" size="20"><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" required minlength="5" maxlength="20" size="20"><br>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" placeholder="sc00terman1c@gmail.com" size="30" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" placeholder="sc00terman1c@gmail.com" size="30" required><br>
 
-                <label for="phone">Phone Number:</label><br>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
-                <small>Format: 123-456-7890</small><br>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+                    <small>Format: 123-456-7890</small><br>
 
-                <label for="date">Date:</label><br>
-                <input type="date" id="date" required name="reservation-date" min="2018-01-01" max="2022-12-31"><br>
+                    <label for="date">Date:</label><br>
+                    <input type="date" id="date" required name="reservation-date" min="2018-01-01" max="2022-12-31"><br>
 
-                <label for="peroid">Length of Reservations</label><br>
-                <input type="range" id="peroid" required name="peroid" min="0" max="20">
-                <p>Length: <span id="demo"></span></p><br>
+                    <label for="peroid">Length of Reservations</label><br>
+                    <input type="range" id="peroid" required name="peroid" min="0" max="20">
+                    <p>Length: <span id="demo"></span></p><br>
 
-                <label for="home">Home Country:</label><br>
-                <input type="text" id="home" name="home" size="15"><br>
+                    <label for="home">Home Country:</label><br>
+                    <input type="text" id="home" name="home" size="15"><br>
 
-                <label for="state">Home State <i>(if applicable)</i>:</label><br>
-                <input type="text" id="state" name="state" size="15"><br>
+                    <label for="state">Home State <i>(if applicable)</i>:</label><br>
+                    <input type="text" id="state" name="state" size="15"><br>
 
-                <label for="type">Veheicles:</label><br>
-                <input list="scooters" id="type" required name="kinds-of-scooters" />
+                    <label for="type">Veheicles:</label><br>
+                    <input list="scooters" id="type" required name="kinds-of-scooters" />
 
-                <datalist id="scooters">
-                    <option value="Honda Metro Scooter"></option>
-                    <option value="Honda Dio Scooter"></option>
-                    <option value="Honda PCX150 Scooter"></option>
-                    <option value="Honda Pioneer ATV"></option>
-                    <option value="Jeep Wrangler - 4 door with a/c"></option>
-                    <option value="Jeep Wrangler - 2 door"></option>
-                </datalist><br>
+                    <datalist id="scooters">
+                        <option value="Honda Metro Scooter"></option>
+                        <option value="Honda Dio Scooter"></option>
+                        <option value="Honda PCX150 Scooter"></option>
+                        <option value="Honda Pioneer ATV"></option>
+                        <option value="Jeep Wrangler - 4 door with a/c"></option>
+                        <option value="Jeep Wrangler - 2 door"></option>
+                    </datalist><br>
 
-                <label for="amount">Number of Vehicles (1-100):</label><br>
-                <input type="number" id="amount" name="amount" min="1" max="100"><br>
+                    <label for="amount">Number of Vehicles (1-100):</label><br>
+                    <input type="number" id="amount" name="amount" min="1" max="100"><br>
 
-                <label for="CLine">Cruise Line<i>(if applicable)</i>:</label><br>
-                <input type="text" id="CLine" required minlength="5" maxlength="20" size="20"><br>
+                    <label for="CLine">Cruise Line<i>(if applicable)</i>:</label><br>
+                    <input type="text" id="CLine" required minlength="5" maxlength="20" size="20"><br>
 
-            </fieldset>
+                </fieldset>
 
-            <label for="moreInfo">Tell us below if there is more information that you think we should
-                know, such as location of a drop-off:</label><br>
-            <textarea id="moreInfo" name="story" rows="5" cols="33"></textarea><br>
+                <label for="moreInfo">Tell us below if there is more information that you think we should
+                    know, such as location of a drop-off:</label><br>
+                <textarea id="moreInfo" name="story" rows="5" cols="33"></textarea><br>
 
-            <input id="submit" type="submit" value="Send Reservation Information" />
+                <input id="submit" type="submit" value="Send Reservation Information" />
 
-        </form>
-        <script>
-            function results() {
-                var firstn = document.getElementById('fname').value;
-                var lastn = document.getElementById('lname').value;
-                var email = document.getElementById('email').value;
-                var phone = document.getElementById('phone').value;
-                var date = document.getElementById('date').value;
-                var time = document.getElementById('peroid').value;
-                var homec = document.getElementById('home').value;
-                var homes = document.getElementById('state').value;
-                var vehicle = document.getElementById('type').value;
-                var number = document.getElementById('amount').value;
-                var cruise = document.getElementById('CLine').value;
-                var info = document.getElementById('moreInfo').value;
+            </form>
+            <script>
+                function results() {
+                    var firstn = document.getElementById('fname').value;
+                    var lastn = document.getElementById('lname').value;
+                    var email = document.getElementById('email').value;
+                    var phone = document.getElementById('phone').value;
+                    var date = document.getElementById('date').value;
+                    var time = document.getElementById('peroid').value;
+                    var homec = document.getElementById('home').value;
+                    var homes = document.getElementById('state').value;
+                    var vehicle = document.getElementById('type').value;
+                    var number = document.getElementById('amount').value;
+                    var cruise = document.getElementById('CLine').value;
+                    var info = document.getElementById('moreInfo').value;
 
-                document.write("<h1> Thank You!</h1>")
-                document.write("Name: " + firstn + " " + lastn + "<br/>");
+                    document.write("<h1> Thank You!</h1>")
+                    document.write("Name: " + firstn + " " + lastn + "<br/>");
 
-                document.write("Email: " + email + "<br/>");
+                    document.write("Email: " + email + "<br/>");
 
-                document.write("Phone Number: " + phone + "<br/>");
+                    document.write("Phone Number: " + phone + "<br/>");
 
-                document.write("Date of reservation: " + date + "<br/>");
+                    document.write("Date of reservation: " + date + "<br/>");
 
-                document.write("Peroid of Reservation: " + time + " days<br/>");
+                    document.write("Peroid of Reservation: " + time + " days<br/>");
 
-                document.write("Home Country, Home State: " + homec);
+                    document.write("Home Country, Home State: " + homec);
 
-                document.write(", " + homes + "<br/>");
+                    document.write(", " + homes + "<br/>");
 
-                document.write("Choice of Vehicle: " + vehicle + "<br/>");
+                    document.write("Choice of Vehicle: " + vehicle + "<br/>");
 
-                document.write("Number of Requested Vehicles: " + number + "<br/>");
+                    document.write("Number of Requested Vehicles: " + number + "<br/>");
 
-                document.write("Crusie Line: " + cruise + "<br/>");
+                    document.write("Crusie Line: " + cruise + "<br/>");
 
-                document.write("Additional Information: " + info + "<br/>");
+                    document.write("Additional Information: " + info + "<br/>");
 
-                document.write(
-                    "<p>Thank you for your reservation, this is information that you entered." +
-                    " If this is correct, click below to enter your deposit.</p>"
-                )
-                var btnSubmit = document.createElement("BUTTON");
-                var btnText = document.createTextNode('Confirm');
+                    document.write(
+                        "<p>Thank you for your reservation, this is information that you entered." +
+                        " If this is correct, click below to enter your deposit.</p>"
+                    )
+                    var btnSubmit = document.createElement("BUTTON");
+                    var btnText = document.createTextNode('Confirm');
 
-                btnSubmit.appendChild(btnText);
-                document.body.appendChild(btnSubmit);
+                    btnSubmit.appendChild(btnText);
+                    document.body.appendChild(btnSubmit);
 
-                btnSubmit.id = "Confirm";
+                    btnSubmit.id = "Confirm";
 
-                document.getElementById("Confirm").onclick = function () {
-                    location.href = "https://josephhark.github.io/lesson%2012/deposit.html";
+                    document.getElementById("Confirm").onclick = function () {
+                        location.href = "https://josephhark.github.io/lesson%2012/deposit.html";
 
+                    }
                 }
-            }
-        </script>
-
+            </script>
+        </div>
     </main>
 
     <footer class="footer">

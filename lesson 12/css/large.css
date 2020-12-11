@@ -129,4 +129,11 @@
         height: auto;
         width: 100px;
     }
+    #contact-forms{
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 1fr ;
+    }
+    #contact-form{
+        grid-column: 2/3;
+    }
 }
