@@ -2,7 +2,8 @@
 
 main {
     width: auto;
-  }
+}
+
 .rentals {
     display: grid;
     grid-template-columns: 1fr;
@@ -12,6 +13,7 @@ main {
     list-style: none;
     padding: 0;
     margin: 0 auto;
+    background-color: #0275f4;
 }
 
 .navigation li:first-child {
@@ -171,4 +173,63 @@ form input {
     justify-content: center;
     color: #eace6a;
     background-color: #0275f4;
+}
+
+header {
+    background-color: #000080;
+    padding: 5px 0;
+    display: grid;
+    color: #0275f4;
+}
+
+.head-img {
+    width: 125px;
+    height: auto;
+    grid-column: 1;
+}
+
+.header-h1 {
+    margin: 0 0 0 17px;
+    background-color: #000080;
+    font-size: 20px;
+}
+
+.head-motto {
+    letter-spacing: 1pt;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #eace6a;
+    grid-column: 3;
+}
+
+.header-h1 {
+    grid-area: header;
+}
+
+.head-img {
+    grid-area: img;
+}
+
+.head-motto {
+    grid-area: motto;
+}
+
+header {
+    background-color: #000080;
+    padding: 5px 0;
+    display: grid;
+    color: #0275f4;
+    display: grid;
+    grid-template-areas:
+        'img img header header header header'
+        'img img motto motto motto motto';
+}
+
+#myModal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.alert-content {
+    grid-column: 2;
 }
